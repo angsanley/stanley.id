@@ -1,6 +1,6 @@
 module.exports = {
   title: "Stanley Ang",
-  description: "Stanley's personal website.",
+  description: "I'm a Computer Science student at BINUS University currently studying Mobile Application and Technology. I love everything tech-related, from designing UI/UX to creating real world problem-solving apps.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
   dest: "./dist",
