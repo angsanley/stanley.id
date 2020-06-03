@@ -38,7 +38,7 @@ Here are some works that I'm involved with :books:
 
   Andrew C., Calvin A., Douglas N., Reksa M.
   
-  Pulvis is a mobile-oriented digital vital sign monitoring system made for smartphones, it also includes our in-house designed IoT device powered by Arduino. Pulvis is intended for patients that need to be constantly monitored by their doctors, but instead of staying at the hospital, they can be monitored anytime and anywhere else.
+  Intended for patients with the need of constant vital signs monitoring by their doctors, Pulvis is a mobile-oriented, smartphone-based vital signs monitoring system. Working in tandem with our in-house, Arduino-based IoT device, Pulvis allows patients' vital signs to be monitored just about anywhere, anytime.
 
   [[GitHub](https://github.com/AngSanley/Pulvis)]
 
