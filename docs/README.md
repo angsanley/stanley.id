@@ -56,7 +56,7 @@ I love everything tech-related, from designing UI/UX to creating real-world prob
   
   Made for Compfest Innovative App 2019, Tamago is a digital penny bank app, designed for young parents to teach their kids how to save money in a fun and interactive way.
   
-  [[GitHub](https://github.com/bearcatsdev/tamago)]
+  [[PDF](https://bit.ly/2XspM4P)] [[GitHub](https://github.com/bearcatsdev/tamago)]
 
 </ProjectCard>
 

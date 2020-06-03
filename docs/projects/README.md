@@ -28,7 +28,7 @@ Here are some works that I'm involved with :books:
   
   Made for Compfest Innovative App 2019, Tamago is a digital penny bank app, designed for young parents to teach their kids how to save money in a fun and interactive way.
   
-  [[GitHub](https://github.com/bearcatsdev/tamago)]
+  [[PDF](https://bit.ly/2XspM4P)] [[GitHub](https://github.com/bearcatsdev/tamago)]
 
 </ProjectCard>
 
@@ -40,7 +40,7 @@ Here are some works that I'm involved with :books:
   
   Intended for patients with the need of constant vital signs monitoring by their doctors, Pulvis is a mobile-oriented, smartphone-based vital signs monitoring system. Working in tandem with our in-house, Arduino-based IoT device, Pulvis allows patients' vital signs to be monitored just about anywhere, anytime.
 
-  [[GitHub](https://github.com/AngSanley/Pulvis)]
+  [[PDF](https://bit.ly/3eNjZNi)] [[GitHub](https://github.com/AngSanley/Pulvis)]
 
 </ProjectCard>
 
