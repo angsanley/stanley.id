@@ -19,7 +19,7 @@ socials:
     link: https://twitter.com/angsanley
 
 bio: Mobile Application and Technology student at BINUS University
-email: angsanley (at) icloud (dot) com
+email: angsanley@icloud.com
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
@@ -28,7 +28,7 @@ email: angsanley (at) icloud (dot) com
 
 I'm a Computer Science student at [BINUS University](https://binus.ac.id/) currently studying Mobile Application and Technology.
 
-I love everything tech-related, from designing UI/UX to creating real world problem-solving apps.
+I love everything tech-related, from designing UI/UX to creating real-world problem-solving apps.
 
 
 ## Projects
@@ -42,7 +42,7 @@ I love everything tech-related, from designing UI/UX to creating real world prob
 
   Andrew C., Brian R., Chandra
   
-  Ayo Dengar Ayo Bicara (ADAB) is an app to help deaf and mute students at BINUS University by giving them access to real-time speech transcribe service so that they can better understand the lecturer.
+  Ayo Dengar Ayo Bicara (ADAB) is an app to help deaf and mute students at BINUS University by providing access to real-time speech transcription service allowing them to better understand the lecturers.
   
   [[GitHub](https://github.com/bearcatsdev/adab)] [[Google Play Store](https://play.google.com/store/apps/details?id=com.ambinusian.adab)]
 
@@ -65,7 +65,7 @@ I love everything tech-related, from designing UI/UX to creating real world prob
 
 ### Competitions
 
-- Top 8 finalists in **BIOS Hackathon 2019**
+- Top 8 finalists in **UMN BIOS Hackathon 2019**
 - Finalist in **Compfest 11 Innovative App Competition by Tokopedia**
 - Finalist in **UAJY Siloam Hackathon 2019**
 

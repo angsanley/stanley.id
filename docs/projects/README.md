@@ -14,7 +14,7 @@ Here are some works that I'm involved with :books:
 
   Andrew C., Brian R., Chandra
   
-  Ayo Dengar Ayo Bicara (ADAB) is an app to help deaf and mute students at BINUS University by giving them access to real-time speech transcribe service so that they can better understand the lecturer.
+  Ayo Dengar Ayo Bicara (ADAB) is an app to help deaf and mute students at BINUS University by providing access to real-time speech transcription service allowing them to better understand the lecturers.
   
   [[GitHub](https://github.com/bearcatsdev/adab)] [[Google Play Store](https://play.google.com/store/apps/details?id=com.ambinusian.adab)]
 
