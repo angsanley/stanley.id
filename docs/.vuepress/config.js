@@ -24,7 +24,16 @@ module.exports = {
     extendMarkdown: md => {
       md.use(require("markdown-it-katex"));
     }
-  }
+  },
+
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': process.env.GA_TRACKING_ID || 'GA_TRACKING_ID' // UA-00000000-0
+      }
+    ]
+  ]
 };
 
 function genSidebarConfig (title) {
