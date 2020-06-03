@@ -54,7 +54,7 @@ I love everything tech-related, from designing UI/UX to creating real-world prob
 
   Brian R., Chandra
   
-  Tamago is a digital penny bank app for kids, made for Compfest Innovative App 2019. This app designed for young parents to teach their kids how to save money using digital penny bank app.
+  Made for Compfest Innovative App 2019, Tamago is a digital penny bank app, designed for young parents to teach their kids how to save money in a fun and interactive way.
   
   [[GitHub](https://github.com/bearcatsdev/tamago)]
 
