@@ -50,7 +50,7 @@ Here are some works that I'm involved with :books:
 
   Yosef S., *et al*
   
-  Xoplax OS was a custom operating system based on the Android Open Source Project (AOSP) made primarily for Xiaomi devices. Xoplax OS enables many new features that aren't usually possible with the official firmware.
+  Xoplax is an operating system based on the Android Open Source Project (AOSP), formerly tailored mainly for Xiaomi devices, which unlocks features not available on the official firmware.
 
   [[GitHub](https://github.com/XoplaxOS)]
 
