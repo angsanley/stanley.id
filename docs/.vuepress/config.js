@@ -26,14 +26,14 @@ module.exports = {
     }
   },
 
-  plugins: [
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': process.env.GA_TRACKING_ID || 'GA_TRACKING_ID' // UA-00000000-0
-      }
-    ]
-  ]
+  plugins: {
+    'sitemap': {
+      hostname: process.env.URL || 'http://localhost:8080'
+    },
+    '@vuepress/google-analytics': {
+      'ga': process.env.GA_TRACKING_ID || 'GA_TRACKING_ID'
+    },
+  }
 };
 
 function genSidebarConfig (title) {
