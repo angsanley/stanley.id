@@ -48,15 +48,15 @@ I love everything tech-related, from designing UI/UX to creating real-world prob
 
 </ProjectCard>
 
-<ProjectCard image="/img/tamago.png" hideBorder=true>
+<ProjectCard image="/img/assignoti.png" hideBorder=true>
 
-  **Tamago**
+  **Assignoti**
 
-  Brian R., Chandra
+  Andrew C., *et al*
   
-  Made for Compfest Innovative App 2019, Tamago is a digital penny bank app, designed for young parents to teach their kids how to save money in a fun and interactive way.
+  Assignoti is a web app made using Vue.js and Firebase to help MAT 2022 students better manage their assignments or tasks. With auto-syncing feature with BINUSMaya, every new assignment will be automatically sent to Discord and LINE bot for easier access.
   
-  [[PDF](https://bit.ly/2XspM4P)] [[GitHub](https://github.com/bearcatsdev/tamago)]
+  [[Website](https://assignoti.web.app/)] [[GitHub](https://github.com/AngSanley/assignoti)]
 
 </ProjectCard>
 

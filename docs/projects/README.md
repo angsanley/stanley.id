@@ -20,6 +20,42 @@ Here are some works that I'm involved with :books:
 
 </ProjectCard>
 
+<ProjectCard image="/img/assignoti.png">
+
+  **Assignoti**
+
+  Andrew C., *et al*
+  
+  Assignoti is a web app made using Vue.js and Firebase to help MAT 2022 students better manage their assignments or tasks. With auto-syncing feature with BINUSMaya, every new assignment will be automatically sent to Discord and LINE bot for easier access.
+  
+  [[Website](https://assignoti.web.app/)] [[GitHub](https://github.com/AngSanley/assignoti)]
+
+</ProjectCard>
+
+<ProjectCard image="/img/dungi.png">
+
+  **Dungi**
+
+  Reinhart K.
+  
+  Dungi is a document sharing platform by a swedish company [Abersoft Technologies](https://abersoft.se) that's designed to protect the document from being shared to other people. I developed the app using Vue.js and Firebase.
+  
+  [[Website](https://dungi.io/)]
+
+</ProjectCard>
+
+<ProjectCard image="/img/homethru.png">
+
+  **Homethru**
+
+  Andrew C., Andrew M. T., Sugiharso, Christopher T., *et al*
+  
+  Homethru is an all-in-one IoT platform for everybody's home automation needs. This project made for my third-year course project at university. Powered by ESP8266.
+  
+  [[GitHub](http://github.com/werdna521/pisang)]
+
+</ProjectCard>
+
 <ProjectCard image="/img/tamago.png">
 
   **Tamago**
