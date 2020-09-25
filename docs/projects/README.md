@@ -50,7 +50,7 @@ Here are some works that I'm involved with :books:
 
   Andrew C., Andrew M. T., Sugiharso, Christopher T., *et al*
   
-  Homethru is an all-in-one IoT platform for everybody's home automation needs. This project made for my third-year course project at university. Powered by ESP8266.
+  Homethru is an all-in-one IoT platform for everybody's home automation needs. This project made for my third-year course project at university. Powered by ESP8266 and Amazon Web Services.
   
   [[GitHub](http://github.com/werdna521/pisang)]
 
