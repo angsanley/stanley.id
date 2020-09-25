@@ -19,7 +19,7 @@ socials:
     link: https://twitter.com/angsanley
 
 bio: Mobile Application and Technology student at BINUS University
-email: angsanley@icloud.com
+email: angsanley(at)icloud.com
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
