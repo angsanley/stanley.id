@@ -65,10 +65,14 @@ I love everything tech-related, from designing UI/UX to creating real-world prob
 
 ### Competitions
 
+- 1st Champion of **BINUS Hackathon 2020**
 - Top 8 finalists in **UMN BIOS Hackathon 2019**
 - Finalist in **Compfest 11 Innovative App Competition by Tokopedia**
 - Finalist in **UAJY Siloam Hackathon 2019**
 
+### Awards
+
+- Best Freshmen Leader in **BINUS FYP 2023**
 
 <!-- Custom style for this page -->
 
