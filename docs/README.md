@@ -48,15 +48,15 @@ I love everything tech-related, from designing UI/UX to creating real-world prob
 
 </ProjectCard>
 
-<ProjectCard image="/img/assignoti.png" hideBorder=true>
+<ProjectCard image="/img/rokaru.png" hideBorder=true>
 
-  **Assignoti**
+**Rokaru**
 
-  Andrew C., *et al*
-  
-  Assignoti is a web app made using Vue.js and Firebase to help MAT 2022 students better manage their assignments or tasks. With auto-syncing feature with BINUSMaya, every new assignment will be automatically sent to Discord and LINE bot for easier access.
-  
-  [[Website](https://assignoti.web.app/)] [[GitHub](https://github.com/AngSanley/assignoti)]
+Andrew C., Andrew M. T.
+
+Rokaru is a mobile-based application that was created and designed specifically to help increase the level of public awareness of MSMEs in the surrounding environment.
+
+[[GitHub](https://github.com/werdna521/rokaru)] [[YouTube](https://www.youtube.com/watch?v=qXvih-D7XDo)]
 
 </ProjectCard>
 

@@ -12,11 +12,23 @@ Here are some works that I'm involved with :books:
 
   **Ayo Dengar Ayo Bicara**
 
-  Andrew C., Brian R., Chandra
+  Andrew C., Brian R., Chandra, Devita S.
   
   Ayo Dengar Ayo Bicara (ADAB) is an app to help deaf and mute students at BINUS University by providing access to real-time speech transcription service allowing them to better understand the lecturers.
   
   [[Press](https://student.binus.ac.id/2020/09/aplikasi-adab-to-connect-dari-binusian-untuk-binusian/)] [[Docs](https://bearcatsdev.github.io/docs/adab/)] [[GitHub](https://github.com/bearcatsdev/adab)] [[Google Play Store](https://play.google.com/store/apps/details?id=com.ambinusian.adab)]
+
+</ProjectCard>
+
+<ProjectCard image="/img/rokaru.png">
+
+**Rokaru**
+
+Andrew C., Andrew M. T.
+
+Rokaru is a mobile-based application that was created and designed specifically to help increase the level of public awareness of MSMEs in the surrounding environment.
+
+[[GitHub](https://github.com/werdna521/rokaru)] [[YouTube](https://www.youtube.com/watch?v=qXvih-D7XDo)]
 
 </ProjectCard>
 
