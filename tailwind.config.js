@@ -9,6 +9,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      'body': ['Inter'],
+      'display': ['Quicksand']
+    }
   },
   variants: {
     extend: {},
