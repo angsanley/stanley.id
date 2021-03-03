@@ -35,7 +35,6 @@ export default {
     @apply rounded-b-3xl;
     background: url("../assets/bg-radial.svg") no-repeat right top fixed;
     width: 100vw;
-    backdrop-filter: blur(10px);
   }
 
   .glass {
@@ -64,6 +63,10 @@ export default {
   }
 
   @screen lg {
+    .hero {
+      backdrop-filter: blur(10px);
+    }
+
     .content {
       @apply flex-row space-x-8 space-y-0 items-end;
     }
