@@ -2,13 +2,12 @@
   <div class="hero">
     <div class="glass">
       <div class="content">
-        <div>
-          <h1>
-            <slot />
-          </h1>
+        <div class="content-container">
+          <slot />
         </div>
-        <div>
-          <img :src="imageSrc" :alt="imageAlt">
+
+        <div class="image-container">
+          <img class="hero-image" :src="imageSrc" :alt="imageAlt">
         </div>
       </div>
     </div>
@@ -35,12 +34,12 @@ export default {
   .hero {
     @apply rounded-b-3xl;
     background: url("../assets/bg-radial.svg") no-repeat right top;
-    height: 80vh;
     width: 100vw;
   }
 
   .glass {
-    @apply w-full h-full shadow-xl bg-opacity-50 bg-gray-200 rounded-b-3xl flex justify-center items-end py-32 px-8;
+    @apply w-full h-full shadow-xl bg-opacity-50 bg-gray-200 rounded-b-3xl flex justify-center items-end py-32 px-8 mb-8;
+    min-height: 80vh;
   }
 
   strong {
@@ -48,20 +47,36 @@ export default {
   }
 
   .content {
-    @apply container flex flex-col-reverse justify-between space-y-8 space-y-reverse;
+    @apply container flex flex-col-reverse justify-between space-y-8 space-y-reverse items-center;
   }
 
-  .content > div {
-    @apply w-full text-center;
+  .content > .content-container {
+    @apply text-center;
+  }
+
+  .image-container {
+    height: 24rem;
+  }
+
+  .hero-image {
+    @apply object-cover rounded-3xl w-full h-full;
   }
 
   @screen lg {
     .content {
-      @apply flex-row space-x-8;
+      @apply flex-row space-x-8 space-y-0 items-end;
     }
 
-    .content > div {
-      @apply w-full text-left;
+    .content > .content-container {
+      @apply text-left w-1/2;
+    }
+
+    .content > .image-container {
+      @apply w-1/2;
+    }
+
+    .hero-image {
+      @apply w-full;
     }
   }
 </style>

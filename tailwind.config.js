@@ -4,18 +4,20 @@ module.exports = {
     './layouts/**/*.vue',
     './pages/**/*.vue',
     './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
+    './nuxt.config.{js,ts}'
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
     fontFamily: {
-      'body': ['Inter'],
-      'display': ['Quicksand']
+      body: ['Inter'],
+      display: ['Quicksand']
     }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio')
+  ]
 }
