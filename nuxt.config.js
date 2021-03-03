@@ -63,5 +63,9 @@ export default {
       Inter: true,
       Quicksand: [100, 300, 600, 700]
     }
+  },
+
+  server: {
+    host: '0.0.0.0'
   }
 }
