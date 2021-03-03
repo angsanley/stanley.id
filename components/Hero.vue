@@ -7,7 +7,7 @@
         </div>
 
         <div class="image-container">
-          <img class="hero-image" :src="imageSrc" :alt="imageAlt">
+          <img v-tippy="tippyConfig" :content="imageTooltip" class="hero-image" :src="imageSrc" :alt="imageAlt">
         </div>
       </div>
     </div>
@@ -25,6 +25,19 @@ export default {
     imageAlt: {
       type: String,
       default: ''
+    },
+    imageTooltip: {
+      type: String,
+      default: ''
+    }
+  },
+  data () {
+    return {
+      tippyConfig: {
+        placement: 'top',
+        arrow: true,
+        followCursor: true
+      }
     }
   }
 }

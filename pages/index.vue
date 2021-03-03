@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Hero :image-src="require('../assets/pictures/index-hero.jpg')">
+    <Hero :image-src="require('../assets/pictures/index-hero.jpg')" image-alt="Picture of me" image-tooltip="Hi there!">
       <h1>
         👋<br>
-        Halo! I'm <strong>Stanley</strong>.
+        Halo! I'm <strong v-tippy="tippyConfig" content="That's my name!">Stanley</strong>.
       </h1>
       <h3 class="mb-4">
         I design and develop meaningful apps.
@@ -19,7 +19,16 @@
 <script>
 import Hero from '~/components/Hero'
 export default {
-  components: { Hero }
+  components: { Hero },
+  data () {
+    return {
+      tippyConfig: {
+        placement: 'top',
+        arrow: true,
+        followCursor: true
+      }
+    }
+  }
 }
 </script>
 
