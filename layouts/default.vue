@@ -24,7 +24,7 @@ html {
 
 <style scoped>
   .navbar {
-    @apply fixed z-30 w-screen;
+    @apply fixed z-30 w-screen top-5 transform;
   }
 </style>
 
