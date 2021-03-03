@@ -47,7 +47,7 @@ export default {
   }
 
   .content {
-    @apply container flex flex-col-reverse justify-between space-y-8 space-y-reverse items-center;
+    @apply container px-4 flex flex-col-reverse justify-between space-y-8 space-y-reverse items-center;
   }
 
   .content > .content-container {
@@ -68,7 +68,7 @@ export default {
     }
 
     .content {
-      @apply flex-row space-x-8 space-y-0 items-end;
+      @apply flex-row space-x-8 space-y-0 items-end px-8;
     }
 
     .content > .content-container {
@@ -81,6 +81,12 @@ export default {
 
     .hero-image {
       @apply w-full;
+    }
+  }
+
+  @screen xl {
+    .content {
+      @apply px-32;
     }
   }
 </style>
