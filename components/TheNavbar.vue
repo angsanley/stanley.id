@@ -22,9 +22,8 @@ export default {
   }
 
   .content {
-    @apply w-full max-w-7xl h-16 bg-white rounded-b-2xl shadow-md bg-opacity-60 flex items-center px-8;
-
-    backdrop-filter: blur(10px);
+    @apply w-full max-w-7xl h-16 bg-white rounded-b-2xl shadow-md bg-opacity-80 flex items-center px-8;
+    backdrop-filter: blur(5px);
   }
 
   .branding {
