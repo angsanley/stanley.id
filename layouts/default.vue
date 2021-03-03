@@ -1,6 +1,8 @@
 <template>
   <div>
-    <the-navbar class="navbar" />
+    <draggable-div class="navbar">
+      <the-navbar />
+    </draggable-div>
     <Nuxt />
   </div>
 </template>
@@ -30,7 +32,8 @@ html {
 
 <script>
 import TheNavbar from '~/components/TheNavbar'
+import DraggableDiv from '~/components/DraggableDiv'
 export default {
-  components: { TheNavbar }
+  components: { TheNavbar, DraggableDiv }
 }
 </script>
