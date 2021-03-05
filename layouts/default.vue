@@ -4,6 +4,7 @@
     <the-navbar class="navbar" />
     <!--    </draggable-div>-->
     <Nuxt />
+    <the-footer />
     <bottom-sheet />
   </div>
 </template>
@@ -33,7 +34,8 @@ html {
 
 <script>
 import TheNavbar from '~/components/TheNavbar'
+import TheFooter from '~/components/TheFooter'
 export default {
-  components: { TheNavbar }
+  components: { TheFooter, TheNavbar }
 }
 </script>
