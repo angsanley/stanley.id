@@ -51,10 +51,11 @@ export default {
   }
 
   .bottom-sheet {
-    @apply fixed z-50 -bottom-full bg-white w-screen rounded-t-3xl shadow-xl transition-all duration-500 ease-in-out overflow-auto;
+    @apply fixed z-50 -bottom-full bg-white bg-opacity-80 w-screen rounded-t-3xl shadow-xl transition-all duration-500 ease-in-out overflow-auto;
     min-height: 20vh;
     max-height: 90vh;
     max-width: 40rem;
+    backdrop-filter: blur(5px);
   }
 
   .sheet-visible {
