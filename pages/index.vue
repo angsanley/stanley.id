@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero>
+    <Hero style="min-height: 80vh;">
       <template #left>
         <nuxt-content :document="heroContent" />
       </template>

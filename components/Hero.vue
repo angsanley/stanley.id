@@ -29,7 +29,6 @@ export default {
     background: url("../assets/bg-radial.svg") no-repeat right top fixed;
     background-size: cover;
     width: 100vw;
-    min-height: 80vh;
   }
 
   .glass {
