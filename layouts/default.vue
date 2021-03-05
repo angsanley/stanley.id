@@ -2,7 +2,9 @@
   <div>
     <div class="on-screen">
       <the-navbar class="navbar" />
-      <Nuxt class="content" />
+      <transition name="fade-in-up">
+        <Nuxt class="content" />
+      </transition>
     </div>
 
     <bottom-sheet />
