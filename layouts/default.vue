@@ -4,6 +4,7 @@
     <the-navbar class="navbar" />
     <!--    </draggable-div>-->
     <Nuxt />
+    <bottom-sheet />
   </div>
 </template>
 
