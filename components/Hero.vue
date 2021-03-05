@@ -48,14 +48,14 @@ export default {
 <style scoped>
   .hero {
     @apply rounded-b-3xl;
-    background: url("../assets/bg-radial.svg") no-repeat right top;
-    background-size: 50%;
+    background: url("../assets/bg-radial.svg") no-repeat right top fixed;
+    background-size: cover;
     width: 100vw;
+    min-height: 80vh;
   }
 
   .glass {
-    @apply w-full h-full shadow-xl bg-opacity-50 bg-gray-200 rounded-b-3xl flex justify-center items-end py-32;
-    min-height: 80vh;
+    @apply w-full h-full shadow-inner bg-opacity-50 bg-gray-200 rounded-b-3xl flex justify-center items-end pt-32 pb-16 lg:pb-32;
   }
 
   strong {
