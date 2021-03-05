@@ -14,7 +14,7 @@
       </div>
 
       <button class="nav-button" @click="openBottomSheet()">
-        <unicon name="bars" />
+        <client-only><unicon name="bars" /></client-only>
       </button>
     </div>
   </div>
