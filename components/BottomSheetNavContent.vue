@@ -16,6 +16,6 @@ export default {
   }
 
   .items {
-    @apply flex flex-col items-center text-xl font-bold space-y-6 text-gray-400;
+    @apply flex flex-col items-center text-xl font-medium space-y-6 text-gray-400;
   }
 </style>

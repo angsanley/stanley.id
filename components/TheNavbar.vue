@@ -79,6 +79,6 @@ export default {
   }
 
   .nav-items {
-    @apply flex space-x-6 font-bold text-gray-500 text-lg;
+    @apply flex space-x-6 font-medium text-gray-500 text-lg;
   }
 </style>

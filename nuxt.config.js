@@ -62,8 +62,8 @@ export default {
 
   googleFonts: {
     families: {
-      Inter: true,
-      Quicksand: [100, 300, 600, 700]
+      Inter: [400, 500, 600, 700],
+      Quicksand: [300, 600, 700]
     }
   },
 
