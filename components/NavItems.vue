@@ -20,6 +20,6 @@ export default {
 
 <style scoped>
   .active {
-    @apply font-bold;
+    @apply text-gray-600;
   }
 </style>
