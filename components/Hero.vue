@@ -56,7 +56,7 @@ export default {
   }
 
   .glass {
-    @apply w-full h-full shadow-inner bg-opacity-50 bg-gray-200 rounded-b-3xl flex justify-center items-end pb-16 lg:pb-32;
+    @apply w-full h-full shadow-inner bg-opacity-50 bg-gray-200 rounded-b-3xl flex justify-center items-end pt-32 pb-16 lg:pb-32;
   }
 
   strong {
