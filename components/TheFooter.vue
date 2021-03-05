@@ -2,10 +2,10 @@
   <footer class="footer">
     <div class="container mx-auto">
       <div class="social-media">
-        <a href="#"><unicon name="linkedin" /></a>
-        <a href="#"><unicon name="instagram" /></a>
-        <a href="#"><unicon name="twitter" /></a>
-        <a href="#"><unicon name="github" /></a>
+        <a href="#"><client-only><unicon name="linkedin" /></client-only></a>
+        <a href="#"><client-only><unicon name="instagram" /></client-only></a>
+        <a href="#"><client-only><unicon name="twitter" /></client-only></a>
+        <a href="#"><client-only><unicon name="github" /></client-only></a>
       </div>
       <div>
         Copyright &copy; 2021 Stanley Ang.
