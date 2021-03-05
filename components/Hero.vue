@@ -3,7 +3,7 @@
   <div class="flex w-full mb-8 -mt-24">
     <div class="hero">
       <div class="glass">
-        <div class="container content">
+        <div class="container content" :class="{ reversed }">
           <div class="content-container">
             <slot name="left" />
           </div>
@@ -19,7 +19,13 @@
 
 <script>
 export default {
-  name: 'Hero'
+  name: 'Hero',
+  props: {
+    reversed: {
+      type: Boolean,
+      default: true
+    }
+  }
 }
 </script>
 
@@ -40,7 +46,11 @@ export default {
   }
 
   .content {
-    @apply flex flex-col-reverse justify-between space-y-8 space-y-reverse items-center;
+    @apply flex flex-col justify-between space-y-8 items-center;
+  }
+
+  .reversed {
+    @apply flex-col-reverse space-y-reverse space-y-8;
   }
 
   .content > .content-container {
