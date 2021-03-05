@@ -13,7 +13,7 @@
         <nav-items class="nav-items" />
       </div>
 
-      <div class="nav-button lg:hidden">
+      <div class="nav-button lg:hidden" @click="openBottomSheet()">
         a
       </div>
     </div>
@@ -38,6 +38,10 @@ export default {
   methods: {
     updateScroll () {
       this.scrollPosition = window.scrollY
+    },
+
+    openBottomSheet () {
+      this.$store.commit('bottomSheet/showBottomSheet', require('../components/BottomSheetNavContent').default)
     }
   }
 

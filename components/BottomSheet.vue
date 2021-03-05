@@ -4,14 +4,15 @@
       <div class="bottom-sheet" :class="{ 'sheet-visible': isOpened }">
         <div class="container mx-auto">
           <div class="px-4 py-6">
-            <div :is="header" class="header" />
-            <div :is="body" class="body" />
+            <div :is="content" class="body" />
           </div>
         </div>
       </div>
     </div>
 
-    <div v-if="isOpened" class="overlay" @click="hideBottomSheet()" />
+    <transition name="fade">
+      <div v-if="isOpened" class="overlay" @click="hideBottomSheet()" />
+    </transition>
   </div>
 </template>
 
@@ -23,10 +24,7 @@ export default {
     isOpened () {
       return this.$store.state.bottomSheet.bottomSheetVisible
     },
-    header () {
-      return this.$store.state.bottomSheet.bottomSheetHeader
-    },
-    body () {
+    content () {
       return this.$store.state.bottomSheet.bottomSheetContent
     }
   },
@@ -53,8 +51,8 @@ export default {
   }
 
   .bottom-sheet {
-    @apply fixed z-50 -bottom-full bg-white w-screen rounded-t-3xl shadow-xl transition-all duration-500 ease-in-out overflow-scroll;
-    min-height: 25vh;
+    @apply fixed z-50 -bottom-full bg-white w-screen rounded-t-3xl shadow-xl transition-all duration-500 ease-in-out overflow-auto;
+    min-height: 20vh;
     max-height: 90vh;
     max-width: 40rem;
   }
@@ -72,7 +70,7 @@ export default {
   }
 
   .fade-enter-active, .fade-leave-active {
-    @apply transition-opacity duration-200 ease-in-out
+    @apply transition-opacity duration-500 ease-in-out
   }
   .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
     @apply opacity-0
