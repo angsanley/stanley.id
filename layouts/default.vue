@@ -1,8 +1,10 @@
 <template>
   <div>
-    <the-navbar class="navbar" />
+    <div class="on-screen">
+      <the-navbar class="navbar" />
+      <Nuxt class="content" />
+    </div>
 
-    <Nuxt class="content" />
     <bottom-sheet />
 
     <footer>
@@ -43,5 +45,9 @@ html {
 
   .content {
     @apply mt-24;
+  }
+
+  .on-screen {
+    min-height: calc(100vh - 19rem);
   }
 </style>
