@@ -1,17 +1,7 @@
 <template>
   <div>
-    <Hero :image-src="require('../assets/pictures/index-hero.jpg')" image-alt="Picture of me" image-tooltip="Hi there!">
-      <h1>
-        👋<br>
-        Halo! I'm <strong v-tippy="tippyConfig" content="That's my name!">Stanley</strong>.
-      </h1>
-      <h3 class="mb-4">
-        I design and develop meaningful apps.
-      </h3>
-      <p>
-        I'm a Computer Science student at BINUS University currently studying Mobile Application and Technology.
-        I love everything tech-related, from designing UI/UX to creating real-world problem-solving apps.
-      </p>
+    <Hero :image-src="page.image" :image-alt="page.alt" image-tooltip="Hi there!">
+      <nuxt-content :document="page" />
     </Hero>
   </div>
 </template>
@@ -20,6 +10,13 @@
 import Hero from '~/components/Hero'
 export default {
   components: { Hero },
+  async asyncData ({ $content }) {
+    const page = await $content('index').fetch()
+
+    return {
+      page
+    }
+  },
   data () {
     return {
       tippyConfig: {
@@ -27,6 +24,16 @@ export default {
         arrow: true,
         followCursor: true
       }
+    }
+  },
+  head () {
+    return {
+      title: `${this.page.title} - Stanley Ang`,
+      meta: [
+        {
+          content: this.page.description
+        }
+      ]
     }
   }
 }
