@@ -1,13 +1,23 @@
 <template>
   <div>
-    <!--    <draggable-div class="navbar">-->
     <the-navbar class="navbar" />
-    <!--    </draggable-div>-->
-    <Nuxt />
-    <the-footer />
+
+    <Nuxt class="content" />
     <bottom-sheet />
+
+    <footer>
+      <the-footer />
+    </footer>
   </div>
 </template>
+
+<script>
+import TheNavbar from '~/components/TheNavbar'
+import TheFooter from '~/components/TheFooter'
+export default {
+  components: { TheFooter, TheNavbar }
+}
+</script>
 
 <style>
 html {
@@ -30,12 +40,8 @@ html {
   .navbar {
     @apply fixed z-30 w-screen top-5 transform;
   }
-</style>
 
-<script>
-import TheNavbar from '~/components/TheNavbar'
-import TheFooter from '~/components/TheFooter'
-export default {
-  components: { TheFooter, TheNavbar }
-}
-</script>
+  .content {
+    @apply mt-24;
+  }
+</style>
