@@ -7,16 +7,26 @@
         <a href="#"><client-only><unicon name="twitter" /></client-only></a>
         <a href="#"><client-only><unicon name="github" /></client-only></a>
       </div>
-      <div>
-        Copyright &copy; 2021 Stanley Ang.
+      <div class="footer-content">
+        <div>
+          <github-button href="https://github.com/angsanley/stanley.id" data-icon="octicon-star" data-show-count="true" aria-label="Star angsanley/stanley.id on GitHub">
+            Star
+          </github-button>
+          <github-button href="https://github.com/angsanley/stanley.id/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork angsanley/stanley.id on GitHub">
+            Fork
+          </github-button>
+        </div>
+        <div>Copyright &copy; 2021 Stanley Ang.</div>
       </div>
     </div>
   </footer>
 </template>
 
 <script>
+import GithubButton from 'vue-github-button'
 export default {
-  name: 'TheFooter'
+  name: 'TheFooter',
+  components: { GithubButton }
 }
 </script>
 
@@ -26,7 +36,7 @@ export default {
   }
 
   .container {
-    @apply flex flex-col lg:flex-row h-full justify-around lg:justify-between items-center;
+    @apply flex flex-col lg:flex-row h-full justify-evenly lg:justify-between items-center;
   }
 
   .social-media {
@@ -39,5 +49,9 @@ export default {
 
   .social-media > a:hover {
     @apply text-green-600;
+  }
+
+  .footer-content {
+    @apply flex flex-col text-center lg:text-right;
   }
 </style>
