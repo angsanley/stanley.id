@@ -16,7 +16,8 @@
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
-    "vue-tippy": "^4.7.3"
+    "vue-tippy": "^4.7.3",
+    "vue-unicons": "^2.3.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

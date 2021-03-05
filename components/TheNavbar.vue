@@ -13,9 +13,9 @@
         <nav-items class="nav-items" />
       </div>
 
-      <div class="nav-button lg:hidden" @click="openBottomSheet()">
-        a
-      </div>
+      <button class="nav-button" @click="openBottomSheet()">
+        <unicon name="bars" />
+      </button>
     </div>
   </div>
 </template>
@@ -75,7 +75,7 @@ export default {
   }
 
   .nav-button {
-    @apply w-8 h-8;
+    @apply w-8 h-8 flex justify-center items-center fill-current text-gray-500 lg:hidden;
   }
 
   .nav-items {
