@@ -19,21 +19,7 @@
 
 <script>
 export default {
-  name: 'Hero',
-  props: {
-    imageSrc: {
-      type: String,
-      default: ''
-    },
-    imageAlt: {
-      type: String,
-      default: ''
-    },
-    imageTooltip: {
-      type: String,
-      default: ''
-    }
-  }
+  name: 'Hero'
 }
 </script>
 
