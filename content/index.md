@@ -7,4 +7,5 @@ alt: A picture of myself
 
 # 👋🏼<br>Halo! I'm <emphasize>**Stanley**</emphasize>.
 ### I design and develop meaningful apps.
-<p class="mt-4">I'm a Computer Science student at BINUS University currently studying Mobile Application and Technology. I love everything tech-related, from designing UI/UX to creating real-world problem-solving apps.</p>
+<br>
+<p>I'm a Computer Science student at BINUS University currently studying Mobile Application and Technology. I love everything tech-related, from designing UI/UX to creating real-world problem-solving apps.</p>
