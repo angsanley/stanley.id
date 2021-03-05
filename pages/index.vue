@@ -1,7 +1,19 @@
 <template>
   <div>
-    <Hero :image-src="heroContent.image" :image-alt="heroContent.alt" image-tooltip="Hi there!">
-      <nuxt-content :document="heroContent" />
+    <Hero>
+      <template #left>
+        <nuxt-content :document="heroContent" />
+      </template>
+
+      <template #right>
+        <img
+          v-tippy="tippyConfig"
+          content="Hi there!"
+          class="hero-image"
+          :src="heroContent.image"
+          :alt="heroContent.alt"
+        >
+      </template>
     </Hero>
 
     <div class="container w-full mx-auto pt-6 centered">
@@ -47,5 +59,10 @@ export default {
 <style scoped>
   .centered {
     @apply text-center;
+  }
+
+  .hero-image {
+    @apply w-full rounded-2xl object-cover;
+    height: 24rem;
   }
 </style>

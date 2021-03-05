@@ -5,11 +5,11 @@
       <div class="glass">
         <div class="container content">
           <div class="content-container">
-            <slot />
+            <slot name="left" />
           </div>
 
-          <div class="image-container">
-            <img v-tippy="tippyConfig" :content="imageTooltip" class="hero-image" :src="imageSrc" :alt="imageAlt">
+          <div class="content-container">
+            <slot name="right" />
           </div>
         </div>
       </div>
@@ -32,15 +32,6 @@ export default {
     imageTooltip: {
       type: String,
       default: ''
-    }
-  },
-  data () {
-    return {
-      tippyConfig: {
-        placement: 'top',
-        arrow: true,
-        followCursor: true
-      }
     }
   }
 }
@@ -71,14 +62,6 @@ export default {
     @apply text-center;
   }
 
-  .image-container {
-    height: 24rem;
-  }
-
-  .hero-image {
-    @apply object-cover rounded-3xl w-full h-full;
-  }
-
   @screen lg {
     .hero {
       backdrop-filter: blur(10px);
@@ -90,14 +73,6 @@ export default {
 
     .content > .content-container {
       @apply text-left w-1/2;
-    }
-
-    .content > .image-container {
-      @apply w-1/2;
-    }
-
-    .hero-image {
-      @apply w-full;
     }
   }
 </style>
