@@ -48,7 +48,8 @@ export default {
 <style scoped>
   .hero {
     @apply rounded-b-3xl;
-    background: url("../assets/bg-radial.svg") no-repeat right top fixed;
+    background: url("../assets/bg-radial.svg") no-repeat right top;
+    background-size: 50%;
     width: 100vw;
   }
 
