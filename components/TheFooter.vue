@@ -26,7 +26,7 @@ export default {
   }
 
   .container {
-    @apply flex flex-col lg:flex-row h-full justify-around lg:justify-between items-center;
+    @apply flex flex-col lg:flex-row h-full justify-evenly lg:justify-between items-center;
   }
 
   .social-media {
