@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Hero :image-src="page.image" :image-alt="page.alt" image-tooltip="Hi there!">
-      <nuxt-content :document="page" />
+    <Hero :image-src="heroContent.image" :image-alt="heroContent.alt" image-tooltip="Hi there!">
+      <nuxt-content :document="heroContent" />
     </Hero>
   </div>
 </template>
@@ -11,10 +11,10 @@ import Hero from '~/components/Hero'
 export default {
   components: { Hero },
   async asyncData ({ $content }) {
-    const page = await $content('index').fetch()
+    const heroContent = await $content('index/hero').fetch()
 
     return {
-      page
+      heroContent
     }
   },
   data () {
@@ -28,10 +28,10 @@ export default {
   },
   head () {
     return {
-      title: `${this.page.title} - Stanley Ang`,
+      title: `${this.heroContent.title} - Stanley Ang`,
       meta: [
         {
-          content: this.page.description
+          content: this.heroContent.description
         }
       ]
     }
