@@ -3,11 +3,12 @@
     <div class="content" :class="{ 'content-bg' : scrollPosition >= 10 }">
       <div class="nav-button lg:hidden" />
 
-      <div class="branding" :class="{ 'branding-top': scrollPosition < 10 }">
-        <nuxt-link to="/">
-          Stanley Ang
-        </nuxt-link>
-      </div>
+      <nuxt-link to="/">
+        <div class="branding" :class="{ 'branding-top': scrollPosition < 10 }">
+          <img class="icon" src="@/assets/icons/stanley.png">
+          <span>Stanley Ang</span>
+        </div>
+      </nuxt-link>
 
       <div class="hidden lg:block">
         <nav-items class="nav-items" />
@@ -63,7 +64,11 @@ export default {
   }
 
   .branding {
-    @apply font-bold font-display text-xl transition-all duration-500;
+    @apply flex items-center font-bold font-display text-xl transition-all duration-500;
+  }
+
+  .icon {
+    @apply h-8 pr-2;
   }
 
   .branding-top {
