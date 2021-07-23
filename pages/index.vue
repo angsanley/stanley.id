@@ -1,18 +1,9 @@
 <template>
   <div>
     <div class="container mx-auto hero">
-      <h1>👋🏼 Halo! I’m <emphasize>Stanley</emphasize>.</h1>
-      <p class="introduction">
-        I’m a software developer from 🇮🇩 Indonesia graduating from 🎓
-        <hyperlink to="https://binus.ac.id" external>
-          BINUS University
-        </hyperlink> studying Mobile Application and Technology.
-        I enjoy developing modern 📱 mobile and 🌎 web apps.
-      </p>
-
-      <p class="introduction">
-        Here’s some of the things that I worked on:
-      </p>
+      <div class="introduction">
+        <nuxt-content :document="heroContent" />
+      </div>
 
       <div class="things">
         <project-icon :icon-src="require('@/assets/icons/adab.png')" title="ADAB" description="Ayo Dengar Ayo Bicara" />

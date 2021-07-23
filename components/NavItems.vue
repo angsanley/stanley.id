@@ -1,7 +1,7 @@
 <template>
   <div>
     <nuxt-link to="/" exact active-class="active">
-      Home
+      🏠 Home
     </nuxt-link>
     <nuxt-link to="/projects" active-class="active">
       Projects

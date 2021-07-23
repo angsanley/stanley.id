@@ -22,7 +22,8 @@ export default {
   css: [
     '@/assets/css/tailwind.css',
     '@/assets/css/main.css',
-    '@/assets/css/transitions/fade-in-up.css'
+    '@/assets/css/transitions/fade-in-up.css',
+    '@/assets/css/emoji.min.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

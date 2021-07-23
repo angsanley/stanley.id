@@ -68,7 +68,7 @@ export default {
   }
 
   .icon {
-    @apply h-8 pr-2;
+    @apply h-6 pr-2;
   }
 
   .branding-top {
