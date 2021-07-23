@@ -1,31 +1,13 @@
 <template>
   <div>
-    <Hero style="min-height: 80vh;">
-      <template #left>
-        <nuxt-content :document="heroContent" />
-      </template>
-
-      <template #right>
-        <img
-          v-tippy="tippyConfig"
-          content="Hi there!"
-          class="hero-image"
-          :src="heroContent.image"
-          :alt="heroContent.alt"
-        >
-      </template>
-    </Hero>
-
-    <div class="container w-full mx-auto pt-6 centered">
-      <nuxt-content :document="whatIDoContent" />
+    <div class="container mx-auto">
+      <h1>👋🏼 Halo! I’m <emphasize>Stanley</emphasize>.</h1>
     </div>
   </div>
 </template>
 
 <script>
-import Hero from '~/components/Hero'
 export default {
-  components: { Hero },
   async asyncData ({ $content }) {
     const heroContent = await $content('index/hero').fetch()
     const whatIDoContent = await $content('index/what-i-do').fetch()
@@ -35,13 +17,6 @@ export default {
     }
   },
   data () {
-    return {
-      tippyConfig: {
-        placement: 'top',
-        arrow: true,
-        followCursor: true
-      }
-    }
   },
   head () {
     return {

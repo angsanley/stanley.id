@@ -63,8 +63,7 @@ export default {
 
   googleFonts: {
     families: {
-      Inter: [400, 500, 600, 700],
-      Quicksand: [300, 600, 700]
+      'Balsamiq Sans': [400, 700]
     }
   },
 

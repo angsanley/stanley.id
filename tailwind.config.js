@@ -18,8 +18,28 @@ module.exports = {
     },
     extend: {},
     fontFamily: {
-      body: ['Inter'],
-      display: ['Quicksand']
+      body: ['Balsamiq Sans'],
+      display: ['Balsamiq Sans']
+    },
+    colors: {
+      green: {
+        lightest: '#E4FDE1',
+        light: '#A8F99F',
+        DEFAULT: '#4EAA4B',
+        dark: '#648381',
+        darkest: '#506865'
+      },
+      gray: {
+        dark: '#46464A',
+        light: '#575761'
+      },
+      white: {
+        DEFAULT: '#FFFFFF',
+        darker: '#d2d2e0'
+      },
+      black: {
+        DEFAULT: '#000000'
+      }
     }
   },
   variants: {

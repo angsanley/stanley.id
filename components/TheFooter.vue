@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
   .footer {
-    @apply mt-16 h-36 bg-gray-100 text-sm;
+    @apply mt-16 h-36 bg-white-darker text-sm;
   }
 
   .container {
@@ -38,6 +38,6 @@ export default {
   }
 
   .social-media > a:hover {
-    @apply text-green-600;
+    @apply text-green;
   }
 </style>

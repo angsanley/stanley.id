@@ -71,14 +71,14 @@ export default {
   }
 
   .branding:hover {
-    @apply text-green-600;
+    @apply text-green;
   }
 
   .nav-button {
-    @apply w-8 h-8 flex justify-center items-center fill-current text-gray-500 lg:hidden;
+    @apply w-8 h-8 flex justify-center items-center fill-current text-gray-dark lg:hidden;
   }
 
   .nav-items {
-    @apply flex space-x-6 font-medium text-gray-500 text-lg;
+    @apply flex space-x-6 font-medium text-gray-dark text-lg;
   }
 </style>

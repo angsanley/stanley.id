@@ -19,7 +19,4 @@ export default {
 </script>
 
 <style scoped>
-  .active {
-    @apply text-gray-600;
-  }
 </style>
