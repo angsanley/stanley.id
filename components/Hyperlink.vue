@@ -31,4 +31,8 @@ export default {
   .material-icons {
     @apply align-middle;
   }
+
+  .link:hover {
+    @apply text-orange-light;
+  }
 </style>
