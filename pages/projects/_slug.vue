@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="hero">
-      <heading>
+      <div class="introduction">
         <h1>{{ article.title }}</h1>
         <span class="description">{{ article.description }}</span>
-      </heading>
+      </div>
 
       <article>
         <nuxt-content :document="article" />
@@ -24,8 +24,12 @@ export default {
 </script>
 
 <style scoped>
+  .introduction {
+    @apply text-xl;
+  }
+
   .description {
-    @apply text-gray-light;
+    @apply opacity-75 text-base;
   }
 
   .hero {
