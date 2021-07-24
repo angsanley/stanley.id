@@ -38,7 +38,7 @@ export default {
   },
   head () {
     return {
-      title: `${this.heroContent.title} - Stanley Ang`,
+      title: 'Stanley Ang',
       meta: [
         {
           content: this.heroContent.description

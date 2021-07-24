@@ -4,7 +4,7 @@
       🏠 Home
     </nuxt-link>
     <nuxt-link to="/projects" active-class="active" class="link">
-      Projects
+      🛠 Projects
     </nuxt-link>
     <nuxt-link to="/resume" active-class="active" class="link">
       Resume

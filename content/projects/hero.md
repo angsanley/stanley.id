@@ -1,6 +1,7 @@
 ---
 title: Projects
-description: Banyak kali bang, gabisa lagi dihitung.
+description: Here's the list of things that I do recently.
+emoji: 🛠
 ---
 
 Mau yang mana?

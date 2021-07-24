@@ -1,26 +1,21 @@
 <template>
   <div>
-    <hero :reversed="false">
-      <template #left>
-        <h1>{{ heroContent.title }}</h1>
-      </template>
-
-      <template #right>
+    <div class="container mx-auto hero">
+      <div class="introduction">
+        <h1>{{ heroContent.emoji }}<br>{{ heroContent.title }}</h1>
         {{ heroContent.description }}
-      </template>
-    </hero>
-
-    <div class="container mx-auto">
-      <nuxt-content :document="heroContent" />
+      </div>
+      <p>
+        <nuxt-content :document="heroContent" />
+      </p>
     </div>
   </div>
 </template>
 
 <script>
-import Hero from '~/components/Hero'
 export default {
   name: 'Projects',
-  components: { Hero },
+  components: { },
   async asyncData ({ $content }) {
     const heroContent = await $content('projects/hero').fetch()
 
@@ -42,5 +37,11 @@ export default {
 </script>
 
 <style scoped>
+  .introduction {
+    @apply text-xl max-w-2xl;
+  }
 
+  .hero {
+    @apply pt-20 space-y-8;
+  }
 </style>
