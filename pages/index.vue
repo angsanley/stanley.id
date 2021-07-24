@@ -6,7 +6,7 @@
       </div>
 
       <div class="things">
-        <project-icon :icon-src="require('@/assets/icons/adab.png')" title="ADAB" description="Ayo Dengar Ayo Bicara" />
+        <project-icon :icon-src="require('@/assets/icons/adab.png')" title="ADAB" description="Ayo Dengar Ayo Bicara" to="/projects/adab" />
         <project-icon :icon-src="require('@/assets/icons/rokaru.png')" title="Rokaru" description="Digital platform for MSME" />
         <project-icon :icon-src="require('@/assets/icons/assignoti.png')" title="Assignoti" description="Tasks and assignment management" />
         <project-icon :icon-src="require('@/assets/icons/tamago2.png')" title="Tamago" description="Digital piggy bank" />

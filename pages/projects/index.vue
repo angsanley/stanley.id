@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container mx-auto hero">
+    <div class="hero">
       <div class="introduction">
         <h1>{{ heroContent.emoji }}<br>{{ heroContent.title }}</h1>
         {{ heroContent.description }}
@@ -42,6 +42,6 @@ export default {
   }
 
   .hero {
-    @apply pt-20 space-y-8;
+    @apply pt-20 space-y-8 container mx-auto ;
   }
 </style>
