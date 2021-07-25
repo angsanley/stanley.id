@@ -2,10 +2,10 @@
   <footer class="footer">
     <div class="container mx-auto">
       <div class="social-media">
-        <a href="#"><client-only><unicon name="linkedin" /></client-only></a>
-        <a href="#"><client-only><unicon name="instagram" /></client-only></a>
-        <a href="#"><client-only><unicon name="twitter" /></client-only></a>
-        <a href="#"><client-only><unicon name="github" /></client-only></a>
+        <a href="https://www.linkedin.com/in/angsanley/" target="_blank"><client-only><unicon name="linkedin" /></client-only></a>
+        <a href="https://instagram.com/angsanley" target="_blank"><client-only><unicon name="instagram" /></client-only></a>
+        <a href="https://twitter.com/angsanley" target="_blank"><client-only><unicon name="twitter" /></client-only></a>
+        <a href="https://github.com/angsanley" target="_blank"><client-only><unicon name="github" /></client-only></a>
       </div>
       <div>
         Copyright &copy; 2021 Stanley Ang.
