@@ -67,7 +67,7 @@ export default {
   }
 
   article {
-    @apply mx-auto px-3 font-article;
+    @apply mx-auto px-3 font-article leading-relaxed;
     max-width: 768px;
   }
 
