@@ -32,6 +32,16 @@ export default {
     const article = await $content('projects', params.slug, { text: true }).fetch()
     return { article }
   },
+  head () {
+    return {
+      title: `${this.article.title} - Stanley Ang`,
+      meta: [
+        {
+          content: this.article.description
+        }
+      ]
+    }
+  },
   methods: {
     readingTime (text) {
       if (text) {

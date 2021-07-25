@@ -2,12 +2,19 @@
   <div>
     <div class="hero">
       <div class="introduction">
-        <h1>{{ heroContent.emoji }}<br>{{ heroContent.title }}</h1>
-        {{ heroContent.description }}
+        <h1>🛠<br>Projects</h1>
+        Here's the list of things that I do recently.
       </div>
-      <p>
-        <nuxt-content :document="heroContent" />
-      </p>
+      <div class="things">
+        <ProjectIcon
+          v-for="project in projects"
+          :key="project.path"
+          :to="project.path"
+          :icon-src="project.icon"
+          :title="project.title"
+          :description="project.description"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -17,18 +24,21 @@ export default {
   name: 'Projects',
   components: { },
   async asyncData ({ $content }) {
-    const heroContent = await $content('projects/hero').fetch()
+    const projects = await $content('projects')
+      .only(['title', 'description', 'icon'])
+      .sortBy('createdAt', 'asc')
+      .fetch()
 
     return {
-      heroContent
+      projects
     }
   },
   head () {
     return {
-      title: `${this.heroContent.title} - Stanley Ang`,
+      title: 'Projects - Stanley Ang',
       meta: [
         {
-          content: this.heroContent.description
+          content: 'Here\'s the list of things that I do recently.'
         }
       ]
     }
@@ -43,5 +53,21 @@ export default {
 
   .hero {
     @apply pt-20 space-y-8 container mx-auto ;
+  }
+
+  .things {
+    @apply grid grid-flow-row grid-cols-2 auto-rows-auto gap-16 pt-4;
+  }
+
+  @screen md {
+    .things {
+      @apply grid-cols-3 auto-rows-auto gap-24;
+    }
+  }
+
+  @screen lg {
+    .things {
+      @apply grid-cols-4 auto-rows-auto gap-32;
+    }
   }
 </style>
