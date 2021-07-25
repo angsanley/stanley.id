@@ -65,7 +65,8 @@ export default {
 
   googleFonts: {
     families: {
-      'Balsamiq Sans': [400, 700]
+      'Balsamiq Sans': [400, 700],
+      'Source Serif Pro': [400, 700]
     }
   },
 

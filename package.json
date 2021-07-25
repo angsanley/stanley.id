@@ -15,6 +15,7 @@
     "@nuxtjs/axios": "^5.12.5",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "core-js": "^3.8.3",
+    "moment": "^2.29.1",
     "nuxt": "^2.15.3",
     "nuxt-material-design-icons": "^1.0.4",
     "vue-tippy": "^4.7.3",

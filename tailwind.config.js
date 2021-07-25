@@ -19,7 +19,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       body: ['Balsamiq Sans'],
-      display: ['Balsamiq Sans']
+      display: ['Balsamiq Sans'],
+      article: ['Source Serif Pro']
     },
     colors: {
       green: {
