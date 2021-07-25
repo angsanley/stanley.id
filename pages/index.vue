@@ -59,18 +59,18 @@ export default {
   }
 
   .things {
-    @apply grid grid-flow-col grid-cols-2 grid-rows-2 gap-16 pt-4;
+    @apply grid grid-flow-row grid-cols-2 auto-rows-auto gap-16 pt-4;
   }
 
   @screen md {
     .things {
-      @apply grid-cols-4 grid-rows-1 gap-24;
+      @apply grid-cols-3 auto-rows-auto gap-24;
     }
   }
 
   @screen lg {
     .things {
-      @apply grid-cols-4 grid-rows-1 gap-32;
+      @apply grid-cols-4 auto-rows-auto gap-32;
     }
   }
 </style>
