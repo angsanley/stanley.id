@@ -39,6 +39,7 @@ export default {
   head () {
     return {
       title: 'Stanley Ang',
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
       meta: [
         {
           content: this.heroContent.description

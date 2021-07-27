@@ -8,7 +8,7 @@
           <span class="description">{{ article.description }}</span>
         </section>
 
-        <span class="published">Published {{ article.createdAt | formatDate }} · {{ readingTime(article.text) }} min read</span>
+        <span class="published">Published {{ article.date | formatDate }} · {{ readingTime(article.text) }} min read</span>
       </div>
     </div>
 
