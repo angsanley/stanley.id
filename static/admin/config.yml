@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: canary # Branch to update (optional; defaults to master)
+  # branch: canary # Branch to update (optional; defaults to master)
   commit_messages:
     create: "content: Create {{collection}} “{{slug}}”"
     update: "content: Update {{collection}} “{{slug}}”"
