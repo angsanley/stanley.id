@@ -7,7 +7,7 @@
       🛠 Projects
     </nuxt-link>
     <nuxt-link to="/resume" active-class="active" class="link">
-      Resume
+      📄 Resume
     </nuxt-link>
   </div>
 </template>
