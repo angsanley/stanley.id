@@ -34,7 +34,7 @@ export default {
   },
   head () {
     return {
-      title: `${this.article.title} - Stanley Ang`,
+      title: this.article.title + ' - Stanley Ang', // I don't know why ${this.article.title} doesn't work.
       meta: [
         {
           content: this.article.description
