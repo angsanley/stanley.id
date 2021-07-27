@@ -47,7 +47,7 @@ export default {
         type: 'article',
         title: this.article.title,
         description: this.article.description,
-        mainImage: this.article.image
+        mainImage: this.article.icon
       }
       return getSiteMeta(metaData)
     }
