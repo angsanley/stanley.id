@@ -5,11 +5,6 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
-    googleAnalyticsTrackingID: process.env.GA_TRACKING_ID || ''
-  },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Stanley Ang',
@@ -58,14 +53,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    'nuxt-material-design-icons',
-    '@nuxtjs/gtm'
+    'nuxt-material-design-icons'
   ],
-
-  gtm: {
-    id: process.env.googleAnalyticsTrackingID,
-    pageTracking: true
-  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
