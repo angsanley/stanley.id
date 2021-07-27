@@ -1,6 +1,13 @@
 backend:
   name: git-gateway
   branch: canary # Branch to update (optional; defaults to master)
+  commit_messages:
+    create: "content: Create {{collection}} “{{slug}}”"
+    update: "content: Update {{collection}} “{{slug}}”"
+    delete: "content: Delete {{collection}} “{{slug}}”"
+    uploadMedia: "content: Upload “{{path}}”"
+    deleteMedia: "content: Delete “{{path}}”"
+    openAuthoring: '{{message}}'
 
 media_folder: static/img
 public_folder: /img
@@ -16,6 +23,7 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Icon URL', name: 'icon', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
