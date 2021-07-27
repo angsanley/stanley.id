@@ -46,7 +46,7 @@ export default {
       const metaData = {
         type: 'article',
         title: this.article.title,
-        description: this.article.description,
+        description: this.article.description + ' - Stanley Ang',
         mainImage: this.article.icon
       }
       return getSiteMeta(metaData)
