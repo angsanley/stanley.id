@@ -2,6 +2,7 @@
 title: ADAB
 description: Ayo Dengar Ayo Bicara
 icon: https://ik.imagekit.io/7zppawpo3dl/adab_GQ7zVtWxX.png?updatedAt=1627146896081
+slug: adab
 ---
 **Every human being wishes to be born perfect**, yet some are not as lucky as others. In BINUS University alone, **dozens of students** with hearing and speech impairment are admitted **every year**. Their circumstances pose challenges in understanding lecture delivery, thus crippling comprehension, deteriorating performance, hence increasing tuition fees due to longer learning period.
 <br>

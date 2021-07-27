@@ -17,7 +17,7 @@ export default {
       default: ''
     },
     to: {
-      type: String,
+      type: [Object, String],
       default: '#'
     },
     title: {

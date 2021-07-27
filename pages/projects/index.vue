@@ -8,8 +8,8 @@
       <div class="things">
         <ProjectIcon
           v-for="project in projects"
-          :key="project.path"
-          :to="project.path"
+          :key="project.slug"
+          :to="{ name: 'projects-slug', params: { slug: project.slug } }"
           :icon-src="project.icon"
           :title="project.title"
           :description="project.description"
@@ -25,7 +25,7 @@ export default {
   components: { },
   async asyncData ({ $content }) {
     const projects = await $content('projects')
-      .only(['title', 'description', 'icon'])
+      .only(['title', 'description', 'icon', 'slug'])
       .sortBy('createdAt', 'asc')
       .fetch()
 
