@@ -70,6 +70,10 @@ export default {
     }
   },
 
+  router: {
+    middleware: ['routeChange']
+  },
+
   server: {
     host: '0.0.0.0'
   }
