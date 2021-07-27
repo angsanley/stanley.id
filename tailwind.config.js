@@ -18,9 +18,9 @@ module.exports = {
     },
     extend: {},
     fontFamily: {
-      body: ['Balsamiq Sans'],
-      display: ['Balsamiq Sans'],
-      article: ['Source Serif Pro']
+      body: ['Balsamiq Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+      display: ['Balsamiq Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+      article: ['Source Serif Pro', 'Times New Roman', 'Times', 'serif']
     },
     colors: {
       green: {
