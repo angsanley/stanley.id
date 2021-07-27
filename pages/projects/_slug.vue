@@ -65,7 +65,7 @@ export default {
   }
 
   .description {
-    @apply opacity-75 text-lg;
+    @apply opacity-75 text-lg text-center;
   }
 
   .published {
