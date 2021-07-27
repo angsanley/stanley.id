@@ -3,7 +3,7 @@
     <slot />
   </nuxt-link>
   <a v-else :href="to" class="link" target="_blank">
-    <slot /> <span class="material-icons">launch</span>
+    <slot /> <span class="material-icons">&#xE895;</span>
   </a>
 </template>
 
