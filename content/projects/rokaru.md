@@ -10,9 +10,10 @@ slug: rokaru
 Rokaru aims to alleviate this problem by **bringing these businesses to the consumers**, instead of the other way around by providing these businesses a digital platform where they can sell their goods virtually. Unlike neighboring apps, Rokaru was designed to have a **simple and user-friendly interface** without user-confusing features.
 <br>
 <br>
-Rokaru has won **<Hyperlink to="https://socs.binus.ac.id/2020/12/18/mahasiswa-mat-menjuarai-kompetisi-socs-hackathon-2020/" external>the first place</Hyperlink>** in the **2020 BINUS School of Computer Science Hackathon**.
+Rokaru was made by Team 👁👄👁, which consists of myself, Andrew Cen, and Andrew Martin Tan, and won **<Hyperlink to="https://socs.binus.ac.id/2020/12/18/mahasiswa-mat-menjuarai-kompetisi-socs-hackathon-2020/" external>first place</Hyperlink>** in the **2020 BINUS School of Computer Science Hackathon**. Here's our presentation video about Rokaru (in Bahasa Indonesia):
 <br>
 <br>
 <YouTubePlayer id="qXvih-D7XDo"></YouTubePlayer>
 <br>
 ## User Interface
+(draft)
