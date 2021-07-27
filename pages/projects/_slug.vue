@@ -5,7 +5,7 @@
         <section class="title-section">
           <img :src="article.icon" :alt="article.title" class="icon">
           <h1>{{ article.title }}</h1>
-          <span class="description">{{ article.description }}</span>
+          <span class="description">{{ article.subtitle }}</span>
         </section>
 
         <span class="published">Published {{ article.date | formatDate }} · {{ readingTime(article.text) }} min read</span>
@@ -20,6 +20,7 @@
 
 <script>
 import moment from 'moment'
+import getSiteMeta from '~/utils/getSiteMeta'
 
 export default {
   name: 'Slug',
@@ -36,10 +37,19 @@ export default {
     return {
       title: this.article.title + ' - Stanley Ang', // I don't know why ${this.article.title} doesn't work.
       meta: [
-        {
-          content: this.article.description
-        }
+        ...this.meta
       ]
+    }
+  },
+  computed: {
+    meta () {
+      const metaData = {
+        type: 'article',
+        title: this.article.title,
+        description: this.article.description,
+        mainImage: this.article.image
+      }
+      return getSiteMeta(metaData)
     }
   },
   methods: {

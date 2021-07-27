@@ -12,7 +12,7 @@
           :to="{ name: 'projects-slug', params: { slug: project.slug } }"
           :icon-src="project.icon"
           :title="project.title"
-          :description="project.description"
+          :description="project.subtitle"
         />
       </div>
     </div>
@@ -20,12 +20,14 @@
 </template>
 
 <script>
+import getSiteMeta from '~/utils/getSiteMeta'
+
 export default {
   name: 'Projects',
   components: { },
   async asyncData ({ $content }) {
     const projects = await $content('projects')
-      .only(['title', 'description', 'icon', 'slug', 'date'])
+      .only(['title', 'subtitle', 'icon', 'slug', 'date'])
       .sortBy('date', 'asc')
       .fetch()
 
@@ -37,10 +39,18 @@ export default {
     return {
       title: 'Projects - Stanley Ang',
       meta: [
-        {
-          content: 'Here\'s the list of things that I do recently.'
-        }
+        ...this.meta
       ]
+    }
+  },
+  computed: {
+    meta () {
+      const metaData = {
+        type: 'article',
+        title: 'Projects - Stanley Ang',
+        description: 'Here\'s the list of things that I do recently.'
+      }
+      return getSiteMeta(metaData)
     }
   }
 }

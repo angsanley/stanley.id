@@ -24,6 +24,7 @@
 <script>
 import Hyperlink from '~/components/Hyperlink'
 import ProjectIcon from '~/components/ProjectIcon'
+import getSiteMeta from '~/utils/getSiteMeta'
 export default {
   components: { ProjectIcon, Hyperlink },
   async asyncData ({ $content }) {
@@ -41,10 +42,13 @@ export default {
       title: 'Stanley Ang',
       script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
       meta: [
-        {
-          content: this.heroContent.description
-        }
+        ...this.meta
       ]
+    }
+  },
+  computed: {
+    meta () {
+      return getSiteMeta()
     }
   }
 }
