@@ -25,8 +25,8 @@ export default {
   components: { },
   async asyncData ({ $content }) {
     const projects = await $content('projects')
-      .only(['title', 'description', 'icon', 'slug'])
-      .sortBy('createdAt', 'asc')
+      .only(['title', 'description', 'icon', 'slug', 'date'])
+      .sortBy('date', 'asc')
       .fetch()
 
     return {
