@@ -5,11 +5,6 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
-    googleAnalyticsTrackingID: process.env.GA_TRACKING_ID || ''
-  },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Stanley Ang',
@@ -45,6 +40,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/dotenv',
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
@@ -83,8 +79,13 @@ export default {
     middleware: ['routeChange']
   },
 
-  googleAnalytics: {
-    id: process.env.googleAnalyticsTrackingID
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GA_TRACKING_ID,
+      autoTracking: {
+        screenview: true
+      }
+    }
   },
 
   server: {
