@@ -1,6 +1,18 @@
 import getSiteMeta from './utils/getSiteMeta'
 const meta = getSiteMeta()
 
+let posts = []
+
+const createSitemapRoutes = async () => {
+  const routes = []
+  const { $content } = require('@nuxt/content')
+  if (posts === null || posts.length === 0) { posts = await $content('projects').fetch() }
+  for (const post of posts) {
+    routes.push(`projects/${post.slug}`)
+  }
+  return routes
+}
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -86,7 +98,8 @@ export default {
   },
 
   sitemap: {
-    hostname: process.env.APP_URL || 'https://stanley.id'
+    hostname: process.env.APP_URL || 'https://stanley.id',
+    routes: createSitemapRoutes
   },
 
   server: {
