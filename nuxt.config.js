@@ -85,6 +85,10 @@ export default {
     middleware: ['routeChange']
   },
 
+  sitemap: {
+    hostname: process.env.APP_URL || 'https://stanley.id'
+  },
+
   server: {
     host: '0.0.0.0'
   }
