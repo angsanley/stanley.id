@@ -6,7 +6,7 @@ const vueGtag = ({ app, env }) => {
     {
       rel: 'preload',
       as: 'script',
-      href: `https://www.googletagmanager.com/gtag/js?id=${env.GA_TRACKING_ID}`,
+      href: `https://www.googletagmanager.com/gtag/js?id=${app.$config.gaTrackingId}`,
     },
     {
       rel: 'preconnect',

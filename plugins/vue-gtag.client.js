@@ -8,7 +8,7 @@ const vueGtag = ({ app, env }) => {
   Vue.use(
     VueGtag,
     {
-      config: { id: env.GA_TRACKING_ID },
+      config: { id: app.$config.gaTrackingId },
       disabled: true // Here you could ignore user privacy and set to true
     },
     app.router

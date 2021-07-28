@@ -5,6 +5,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  publicRuntimeConfig: {
+    gaTrackingId: process.env.GA_TRACKING_ID
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Stanley Ang',
@@ -78,18 +82,6 @@ export default {
 
   router: {
     middleware: ['routeChange']
-  },
-
-  publicRuntimeConfig: {
-    // googleAnalytics: {
-    //   id: process.env.GA_TRACKING_ID,
-    //   autoTracking: {
-    //     screenview: true
-    //   }
-    // }
-    env: {
-      gaId: process.env.GA_TRACKING_ID
-    }
   },
 
   server: {
