@@ -32,7 +32,9 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/vue-tippy.js', mode: 'client' },
-    { src: '~/plugins/vue-unicons', mode: 'client' }
+    { src: '~/plugins/vue-unicons', mode: 'client' },
+    { src: '~/plugins/vue-gtag.client.js' },
+    { src: '~/plugins/vue-gtag.server.js' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -45,8 +47,7 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -80,11 +81,14 @@ export default {
   },
 
   publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GA_TRACKING_ID,
-      autoTracking: {
-        screenview: true
-      }
+    // googleAnalytics: {
+    //   id: process.env.GA_TRACKING_ID,
+    //   autoTracking: {
+    //     screenview: true
+    //   }
+    // }
+    env: {
+      gaId: process.env.GA_TRACKING_ID
     }
   },
 

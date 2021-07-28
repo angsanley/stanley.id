@@ -18,6 +18,7 @@
     "moment": "^2.29.1",
     "nuxt": "^2.15.3",
     "nuxt-material-design-icons": "^1.0.4",
+    "vue-gtag": "^1.16.1",
     "vue-tippy": "^4.7.3",
     "vue-unicons": "^2.3.0"
   },
@@ -25,7 +26,6 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/eslint-config": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "@tailwindcss/postcss7-compat": "^2.0.3",
