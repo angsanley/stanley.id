@@ -2,7 +2,7 @@
   <nuxt-link v-if="!external" :to="to" class="link">
     <slot />
   </nuxt-link>
-  <a v-else :href="to" class="link" target="_blank">
+  <a v-else rel="noopener" :href="to" class="link" target="_blank">
     <slot /> <span class="material-icons">&#xE895;</span>
   </a>
 </template>
