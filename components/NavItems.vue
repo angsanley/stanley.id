@@ -24,10 +24,11 @@ export default {
   }
 
   .link {
-    @apply transition duration-300 ease-in-out;
+    @apply transition duration-300 ease-in-out py-2 px-4 rounded-full;
   }
 
   .link:hover {
-    @apply text-orange-light;
+    @apply bg-green bg-opacity-20;
   }
+
 </style>

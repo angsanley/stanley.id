@@ -84,6 +84,6 @@ export default {
   }
 
   .nav-items {
-    @apply flex space-x-6 font-medium text-gray-dark text-lg;
+    @apply flex font-medium text-gray-dark text-lg;
   }
 </style>
