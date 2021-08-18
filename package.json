@@ -20,7 +20,7 @@
     "nuxt": "^2.15.8",
     "nuxt-material-design-icons": "^1.0.4",
     "vue-gtag": "^1.16.1",
-    "vue-tippy": "^4.7.3",
+    "vue-tippy": "^4.10.2",
     "vue-unicons": "^3.2.1"
   },
   "devDependencies": {
