@@ -29,3 +29,7 @@ h5 {
 strong {
   @apply font-bold;
 }
+
+.normal-emoji-weight {
+  font-weight: normal !important;
+}

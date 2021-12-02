@@ -1,13 +1,13 @@
 <template>
   <div>
     <nuxt-link to="/" exact active-class="active" class="link">
-      🏠 Home
+      <span class="normal-emoji-weight">🏠</span> Home
     </nuxt-link>
     <nuxt-link to="/projects" active-class="active" class="link">
-      🛠 Projects
+      <span class="normal-emoji-weight">🛠</span> Projects
     </nuxt-link>
     <nuxt-link to="/resume" active-class="active" class="link">
-      📄 Resume
+      <span class="normal-emoji-weight">📄</span> Resume
     </nuxt-link>
   </div>
 </template>
