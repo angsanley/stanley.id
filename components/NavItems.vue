@@ -20,15 +20,15 @@ export default {
 
 <style scoped>
   .active {
-    @apply text-green font-bold;
+    @apply text-green lg:bg-green lg:bg-opacity-20;
   }
 
   .link {
-    @apply transition duration-300 ease-in-out py-2 px-4 rounded-full;
+    @apply transition duration-300 ease-in-out lg:py-2 px-4 rounded-full;
   }
 
   .link:hover {
-    @apply bg-green bg-opacity-20;
+    @apply lg:bg-green lg:bg-opacity-30;
   }
 
 </style>

@@ -2,7 +2,7 @@
   <div>
     <div class="hero">
       <div class="introduction">
-        <h1>🛠<br>Projects</h1>
+        <h1><span class="normal-emoji-weight">🛠</span><br>Projects</h1>
         Here's the list of things that I do recently.
       </div>
       <div class="things">
@@ -58,7 +58,7 @@ export default {
 
 <style scoped>
   .introduction {
-    @apply text-xl max-w-2xl;
+    @apply text-lg max-w-2xl;
   }
 
   .hero {

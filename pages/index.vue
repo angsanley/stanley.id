@@ -60,7 +60,7 @@ export default {
   }
 
   .introduction {
-    @apply text-xl max-w-2xl;
+    @apply text-lg max-w-2xl;
   }
 
   .things {
