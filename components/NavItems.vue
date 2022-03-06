@@ -1,13 +1,13 @@
 <template>
   <div>
     <nuxt-link to="/" exact active-class="active" class="link">
-      🏠 Home
+      <span class="normal-emoji-weight">🏠</span> Home
     </nuxt-link>
     <nuxt-link to="/projects" active-class="active" class="link">
-      🛠 Projects
+      <span class="normal-emoji-weight">🛠</span> Projects
     </nuxt-link>
     <nuxt-link to="/resume" active-class="active" class="link">
-      📄 Resume
+      <span class="normal-emoji-weight">📄</span> Resume
     </nuxt-link>
   </div>
 </template>
@@ -20,14 +20,15 @@ export default {
 
 <style scoped>
   .active {
-    @apply text-green font-bold;
+    @apply text-green lg:bg-green lg:bg-opacity-20;
   }
 
   .link {
-    @apply transition duration-300 ease-in-out;
+    @apply transition duration-300 ease-in-out lg:py-2 px-4 rounded-full;
   }
 
   .link:hover {
-    @apply text-orange-light;
+    @apply lg:bg-green lg:bg-opacity-30;
   }
+
 </style>

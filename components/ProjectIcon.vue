@@ -43,7 +43,7 @@ export default {
   }
 
   .title {
-    @apply text-center font-bold pt-4 text-xl;
+    @apply text-center font-bold pt-4 text-xl font-display;
   }
 
   .description {

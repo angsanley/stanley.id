@@ -18,9 +18,10 @@ module.exports = {
     },
     extend: {},
     fontFamily: {
-      body: ['Balsamiq Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+      body: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
       display: ['Balsamiq Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
-      article: ['Source Serif Pro', 'Times New Roman', 'Times', 'serif']
+      // article: ['Source Serif Pro', 'Times New Roman', 'Times', 'serif']
+      article: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif']
     },
     colors: {
       green: {
