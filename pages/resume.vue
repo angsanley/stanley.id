@@ -28,7 +28,7 @@ export default {
       const metaData = {
         type: 'article',
         title: 'Resume - Stanley Ang',
-        description: 'Coming soon.'
+        description: this.article.description
       }
       return getSiteMeta(metaData)
     }

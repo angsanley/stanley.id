@@ -1,3 +1,9 @@
+---
+title: Resume
+subtitle: Stanley Ang's Resume
+description: A final year Computer Science student, with specialization in Mobile Application and Technology. Very passionate about full-stack development with 3 years of experience in modern web and mobile development. Highly experienced in Vue.js, React, React Native, and serverless architecture. Looking for a job opportunity in software engineering to apply my technical skills, knowledge, and experience.
+slug: resume
+---
 # Resume
 ### Social Profiles
 <hyperlink to="https://github.com/angsanley" external>GitHub</hyperlink> | <hyperlink to="https://linkedin.com/in/angsanley" external>LinkedIn</hyperlink> | <hyperlink to="https://twitter.com/angsanley" external>Twitter</hyperlink> | <hyperlink to="https://instagram.com/angsanley" external>Instagram</hyperlink>
