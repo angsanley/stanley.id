@@ -3,7 +3,7 @@
     <div class="hero">
       <div class="introduction">
         <h1><span class="normal-emoji-weight">🛠</span><br>Projects</h1>
-        Here's the list of things that I do recently.
+        Here's the list of things that I did recently.
       </div>
       <div class="things">
         <ProjectIcon
