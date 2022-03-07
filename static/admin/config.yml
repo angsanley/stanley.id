@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: canary # Branch to update (optional; defaults to master)
+  # branch: canary # Branch to update (optional; defaults to master)
   commit_messages:
     create: "content: Create {{collection}} “{{slug}}”"
     update: "content: Update {{collection}} “{{slug}}”"
@@ -13,6 +13,19 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: 'Resume'
+        name: 'resume'
+        file: 'content/resume.md'
+        format: 'frontmatter'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+          - { label: 'Updated Date', name: 'date', widget: 'datetime' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'projects'
     label: 'Projects'
     folder: 'content/projects'
