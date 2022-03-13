@@ -1203,18 +1203,20 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@iconscout/unicons@^2.1.9":
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/@iconscout/unicons/-/unicons-2.1.11.tgz#9e8260045408da6eff10d0c531215930ba46b311"
-  integrity sha512-4yRgh76BpdVzrK1St8tEMJdZUKtIZNmIwkXRIL5v5vezvQth84KMqrvU3No5kRb0sWd2GkU+JQzumbInYDZH/w==
+"@iconscout/unicons@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@iconscout/unicons/-/unicons-4.0.1.tgz#f38fda4b83a1357a650135959f246913a157f6af"
+  integrity sha512-uMyaHfzfrc4Wd+n0EGsrSGqW/YB/7gZYro4fKhK+YjrG5GWn2bag+5Fj2yqnhjj0Wdc3nHQM6i6rjM7B5zNY3Q==
   dependencies:
     async "^2.6.1"
-    axios "^0.19.0"
+    axios "^0.21.1"
     cheerio "^1.0.0-rc.2"
-    fontello-cli "^0.5.0"
+    cross-env "^7.0.2"
+    fontello-cli "^0.6.2"
     fs-plus "^3.1.1"
     glob "^7.1.3"
-    lodash "^4.17.15"
+    insertion-query "^1.1.0"
+    lodash "^4.17.21"
     parse-svg-path "^0.1.2"
     scale-svg-path "0.0.1"
     serialize-svg-path "^0.1.0"
@@ -2862,13 +2864,6 @@ axios-retry@^3.1.9:
   dependencies:
     is-retry-allowed "^1.1.0"
 
-axios@^0.19.0:
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
-  dependencies:
-    follow-redirects "1.5.10"
-
 axios@^0.21.1:
   version "0.21.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
@@ -3967,7 +3962,14 @@ create-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
 
-cross-spawn@^7.0.2, cross-spawn@^7.0.3:
+cross-env@^7.0.2:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
+  integrity sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==
+  dependencies:
+    cross-spawn "^7.0.1"
+
+cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
   integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
@@ -4329,13 +4331,6 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@=3.1.0, debug@~3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@^3.1.0, debug@^3.1.1, debug@^3.2.6, debug@^3.2.7:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
@@ -4349,6 +4344,13 @@ debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
   dependencies:
     ms "2.1.2"
+
+debug@~3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  dependencies:
+    ms "2.0.0"
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
@@ -5450,26 +5452,19 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
-  dependencies:
-    debug "=3.1.0"
-
 follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.13.3"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.3.tgz#e5598ad50174c1bc4e872301e82ac2cd97f90267"
   integrity sha512-DUgl6+HDzB0iEptNQEXLx/KhTmDb8tZUHSeLqpnjpknR70H0nC2t9N73BK6fN4hOvJ84pKlIQVQ4k5FFlBedKA==
 
-fontello-cli@^0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/fontello-cli/-/fontello-cli-0.5.1.tgz#878fcc712718aef52c15127b7832652a40bb3998"
-  integrity sha512-7W1WjU1fKvy4mGmPOxSflxA8Bvl8ysoVtq6+6fAgFSvZIpRdMMMsSe1SFFp/1+MdQ6dwiLlT99zaMKe7lAyjUQ==
+fontello-cli@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/fontello-cli/-/fontello-cli-0.6.2.tgz#c1724f3b61c851a9bfae0c0943d958511e439433"
+  integrity sha512-/85DkJNgbGOu0sh7sUAxWLbzq0cytWQtvn7WuRzpn6mcla6TEQz1JbYmpkAjX/PJiW867ujgoaFqm4CUoBBgwA==
   dependencies:
     colors "^1.4.0"
     commander "^3.0.0"
-    mkdirp "^0.5.1"
+    mkdirp "^1.0.4"
     needle "^2.4.0"
     open "^7.0.0"
     unzipper "^0.10.5"
@@ -6393,6 +6388,11 @@ inquirer@^7.3.3:
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
     through "^2.3.6"
+
+insertion-query@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/insertion-query/-/insertion-query-1.1.0.tgz#25c98db5acdc8e012a1bc2ae8f617a8edf82ed5d"
+  integrity sha512-5HZCK1xmD+Cm5q9/Qk1S8tr2BqHtcvseGsg7LKD3WlHRg4OOCl7d6C5raGNXAhfV4NlUcHmAtdJt0b3vJPEuiA==
 
 internal-slot@^1.0.3:
   version "1.0.3"
@@ -11738,25 +11738,20 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue-unicons@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/vue-unicons/-/vue-unicons-2.3.0.tgz#9a3ba2d77ac59a61003887864c950bfc9cea7792"
-  integrity sha512-2IS9tneZ/YLR2FuXds+OXGugXEtxoOvR5mGVkFek3I9hRfalFUrGOHzotrjMHbb3KCDFkNaOVkhfl2nZr9XEfQ==
+vue-unicons@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/vue-unicons/-/vue-unicons-3.3.1.tgz#38385cd58ea40ebf4d738633663bf3bacf658cc5"
+  integrity sha512-CLhlzMnb/zQUcZoEx7tC4Keg4qGHxgWaDrIlUfwti+OnP0KtYKs0mxVcqwNkneevs8IJ/rXDPcJHC/UWdF6fUw==
   dependencies:
-    "@iconscout/unicons" "^2.1.9"
+    "@iconscout/unicons" "^4.0.1"
     prismjs "^1.15.0"
     vue "^2.5.22"
     vue-analytics "^5.16.2"
 
-vue@^2.5.22:
+vue@^2.5.22, vue@^2.6.12:
   version "2.6.14"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
-
-vue@^2.6.12:
-  version "2.6.12"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
-  integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
 vuex@^3.6.2:
   version "3.6.2"
