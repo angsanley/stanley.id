@@ -19,7 +19,7 @@
     "moment": "^2.29.1",
     "nuxt": "^2.15.8",
     "nuxt-material-design-icons": "^1.0.4",
-    "vue-gtag": "^1.16.1",
+    "vue-gtag": "^2.0.1",
     "vue-unicons": "^2.3.0"
   },
   "devDependencies": {
