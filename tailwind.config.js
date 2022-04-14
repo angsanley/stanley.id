@@ -18,10 +18,10 @@ module.exports = {
     },
     extend: {},
     fontFamily: {
-      body: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
-      display: ['Balsamiq Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+      body: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+      display: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
       // article: ['Source Serif Pro', 'Times New Roman', 'Times', 'serif']
-      article: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif']
+      article: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif']
     },
     colors: {
       green: {
@@ -30,6 +30,9 @@ module.exports = {
         DEFAULT: '#4EAA4B',
         dark: '#648381',
         darkest: '#506865'
+      },
+      teal: {
+        DEFAULT: '#6DBC8A'
       },
       gray: {
         dark: '#46464A',
@@ -44,7 +47,8 @@ module.exports = {
       },
       orange: {
         DEFAULT: '#E09200',
-        light: '#FFBF46'
+        light: '#FFBF46',
+        lighter: '#FFC938'
       }
     }
   },

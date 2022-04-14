@@ -1,5 +1,6 @@
 body {
-  @apply font-body text-gray-dark;
+  @apply font-body text-white font-medium;
+  background: url('/img/bg-tile-green.jpg');
 }
 
 h1, h2, h3, h4, h5, h6 {
