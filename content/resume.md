@@ -22,6 +22,12 @@ A final year Computer Science student, with specialization in Mobile Application
 
 ### Work Experience
 
+#### Software Engineer (Frontend), [Mazecare](https://www.mazecare.com)
+
+Apr 2022 - Present | Hong Kong SAR (Remote)
+<br><br>
+Working on a team of 5 people to build and maintain the Provider application for numerous hospitals and clinics, increased the efficiency of the application by improving the user experience and performance. Built a Tailwind design system that's used by the team to build the application.
+
 #### Software Engineer Intern, PT Bank Central Asia Tbk
 
 Feb 2021 - Feb 2022 | Jakarta, Indonesia
