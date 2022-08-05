@@ -64,7 +64,7 @@ Ex-lead developer of ADAB, a mobile and web application designed to help speech 
 
 ### Education
 
-#### Bachelor of Computer Science, BINUS University
+#### Bachelor of Science in Computer Science, BINUS University
 
 2018 - 2022
 
