@@ -1,22 +1,23 @@
 <template>
   <div class="navbar-container">
     <div class="content" :class="{ 'content-bg' : scrollPosition >= 10 }">
-      <div class="nav-button lg:hidden" />
+      <div class="container mx-auto flex justify-between items-center h-full">
+        <div class="nav-button lg:hidden" />
+        <nuxt-link to="/">
+          <div class="branding" :class="{ 'branding-top': scrollPosition < 10 }">
+            <img class="icon" src="@/assets/icons/stanley.png">
+            <span>Stanley Ang</span>
+          </div>
+        </nuxt-link>
 
-      <nuxt-link to="/">
-        <div class="branding" :class="{ 'branding-top': scrollPosition < 10 }">
-          <img class="icon" src="@/assets/icons/stanley.png">
-          <span>Stanley Ang</span>
+        <div class="hidden lg:block">
+          <nav-items class="nav-items" :class="{ '!text-white' : scrollPosition < 10 }" />
         </div>
-      </nuxt-link>
 
-      <div class="hidden lg:block">
-        <nav-items class="nav-items" />
+        <button class="nav-button" @click="openBottomSheet()">
+          <client-only><unicon name="bars" :fill="scrollPosition < 10 && 'white'" /></client-only>
+        </button>
       </div>
-
-      <button class="nav-button" @click="openBottomSheet()">
-        <client-only><unicon name="bars" /></client-only>
-      </button>
     </div>
   </div>
 </template>
@@ -55,16 +56,15 @@ export default {
   }
 
   .content {
-    @apply w-full max-w-7xl h-16 bg-opacity-0 flex justify-between items-center mx-4 transition-all duration-300 rounded-2xl;
-    backdrop-filter: blur(5px);
+    @apply w-full h-24 bg-opacity-0 transition-all text-white;
   }
 
   .content-bg {
-    @apply bg-white bg-opacity-80 shadow-md px-8;
+    @apply bg-white bg-opacity-90 backdrop-blur-xl h-20 text-gray-dark;
   }
 
   .branding {
-    @apply flex items-center font-bold font-display text-xl transition-all duration-500;
+    @apply flex items-center font-bold font-display text-xl transition-all;
   }
 
   .icon {
@@ -73,10 +73,6 @@ export default {
 
   .branding-top {
     @apply text-2xl;
-  }
-
-  .branding:hover {
-    @apply text-green;
   }
 
   .nav-button {

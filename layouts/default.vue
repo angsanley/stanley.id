@@ -42,7 +42,7 @@ html {
 
 <style scoped>
   .navbar {
-    @apply fixed z-30 w-screen top-5 transform;
+    @apply fixed z-30 w-screen top-0 transform;
   }
 
   .content {
