@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="on-screen">
-      <the-navbar class="navbar" />
+      <the-navbar class="navbar" :no-hero="noHero" />
       <transition name="fade-in-up">
         <Nuxt class="content" />
       </transition>
@@ -19,7 +19,10 @@
 import TheNavbar from '~/components/TheNavbar'
 import TheFooter from '~/components/TheFooter'
 export default {
-  components: { TheFooter, TheNavbar }
+  components: { TheFooter, TheNavbar },
+  computed: {
+    noHero () { return this.$store.state.navbarConfig.noHero }
+  }
 }
 </script>
 

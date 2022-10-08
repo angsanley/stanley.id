@@ -1,6 +1,6 @@
 <template>
   <div class="navbar-container">
-    <div class="content" :class="{ 'content-bg' : scrollPosition >= 10 }">
+    <div class="content" :class="{ 'content-bg' : scrollPosition >= 10, '!text-white' : scrollPosition < 10 && !noHero }">
       <div class="container mx-auto flex justify-between items-center h-full">
         <div class="nav-button lg:hidden" />
         <nuxt-link to="/">
@@ -11,11 +11,11 @@
         </nuxt-link>
 
         <div class="hidden lg:block">
-          <nav-items class="nav-items" :class="{ '!text-white' : scrollPosition < 10 }" />
+          <nav-items class="nav-items" :class="{ '!text-white' : scrollPosition < 10 && !noHero }" />
         </div>
 
         <button class="nav-button" @click="openBottomSheet()">
-          <client-only><unicon name="bars" :fill="scrollPosition < 10 && 'white'" /></client-only>
+          <client-only><unicon name="bars" :fill="scrollPosition < 10 && !noHero && 'white'" /></client-only>
         </button>
       </div>
     </div>
@@ -27,6 +27,12 @@ import NavItems from '~/components/NavItems'
 export default {
   name: 'TheNavbar',
   components: { NavItems },
+  props: {
+    noHero: {
+      type: Boolean,
+      default: false
+    }
+  },
   data () {
     return {
       scrollPosition: null
@@ -56,7 +62,7 @@ export default {
   }
 
   .content {
-    @apply w-full h-24 bg-opacity-0 transition-all text-white;
+    @apply w-full h-24 bg-opacity-0 transition-all;
   }
 
   .content-bg {
