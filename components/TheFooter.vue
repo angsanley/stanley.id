@@ -8,8 +8,14 @@
           </div>
           <p>Let's build stuff together! 🚀</p>
         </div>
-        <div>
-          Copyright &copy; 2021 Stanley Ang.
+        <div class="space-y-2">
+          <div class="social-media">
+            <a rel="noopener" href="https://www.linkedin.com/in/angsanley/" target="_blank"><client-only><unicon name="linkedin" /></client-only></a>
+            <a rel="noopener" href="https://instagram.com/angsanley" target="_blank"><client-only><unicon name="instagram" /></client-only></a>
+            <a rel="noopener" href="https://twitter.com/angsanley" target="_blank"><client-only><unicon name="twitter" /></client-only></a>
+            <a rel="noopener" href="https://github.com/angsanley" target="_blank"><client-only><unicon name="github" /></client-only></a>
+          </div>
+          <div>Copyright &copy; 2022 Stanley Ang.</div>
         </div>
       </div>
     </div>
@@ -32,7 +38,7 @@ export default {
 }
 
 .social-media {
-  @apply flex space-x-2 fill-current;
+  @apply flex space-x-2 fill-current justify-end;
 }
 
 .social-media > a {
