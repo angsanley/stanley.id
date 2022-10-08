@@ -1,10 +1,11 @@
 <template>
   <footer class="flex flex-col h-64">
-    <div class="wave-pattern h-20"></div>
     <div class="footer">
       <div class="container mx-auto">
         <div class="flex flex-col space-y-2 w-full lg:w-1/3 text-center lg:text-left">
-          <div class="text-2xl font-extrabold">Stanley Ang</div>
+          <div class="text-2xl font-extrabold">
+            Stanley Ang
+          </div>
           <p>Let's build stuff together! 🚀</p>
         </div>
         <div>
@@ -23,13 +24,7 @@ export default {
 
 <style scoped>
 .footer {
-  @apply bg-white text-sm text-gray-dark h-full;
-}
-
-.wave-pattern {
-  background: url("/img/wave-tile-footer.png") repeat-x;
-  background-position: center bottom;
-  background-size: 64rem;
+  @apply bg-white text-sm h-full;
 }
 
 .container {

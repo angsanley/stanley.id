@@ -46,7 +46,6 @@ html {
   }
 
   .content {
-    @apply mt-24;
   }
 
   .on-screen {

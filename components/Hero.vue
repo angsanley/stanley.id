@@ -1,19 +1,7 @@
 <template>
-  <!--  -mt-24 for resetting margin from default layout-->
-  <div class="flex w-full mb-8 -mt-24">
-    <div class="hero">
-      <div class="glass">
-        <div class="container content" :class="{ reversed }">
-          <div class="content-container">
-            <slot name="left" />
-          </div>
-
-          <div class="content-container">
-            <slot name="right" />
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="tile-bg min-h-[75vh] h-full relative items-center flex text-white">
+    <slot />
+    <div class="wave-pattern h-20 absolute bottom-0 w-full" />
   </div>
 </template>
 
@@ -30,44 +18,13 @@ export default {
 </script>
 
 <style scoped>
-  .hero {
-    @apply rounded-b-3xl;
-    background: url("../assets/bg-radial.svg") no-repeat right top fixed;
-    background-size: cover;
-    width: 100vw;
-  }
+.wave-pattern {
+  background: url("/img/wave-tile-footer.png") repeat-x;
+  background-position: center bottom;
+  background-size: 64rem;
+}
 
-  .glass {
-    @apply w-full h-full shadow-inner bg-opacity-50 rounded-b-3xl flex justify-center items-end pt-32 pb-16 lg:pb-32;
-  }
-
-  strong {
-    @apply text-green font-extrabold;
-  }
-
-  .content {
-    @apply flex flex-col justify-between space-y-8 items-center;
-  }
-
-  .reversed {
-    @apply flex-col-reverse space-y-reverse space-y-8;
-  }
-
-  .content > .content-container {
-    @apply text-center;
-  }
-
-  @screen lg {
-    .hero {
-      backdrop-filter: blur(10px);
-    }
-
-    .content {
-      @apply flex-row space-x-8 space-y-0 items-end;
-    }
-
-    .content > .content-container {
-      @apply text-left w-1/2;
-    }
-  }
+.tile-bg {
+  background: url('/img/bg-tile-green.jpg');
+}
 </style>
