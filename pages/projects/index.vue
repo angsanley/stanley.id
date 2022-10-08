@@ -1,10 +1,19 @@
 <template>
   <div>
-    <div class="hero">
-      <div class="introduction">
-        <h1><span class="normal-emoji-weight">🛠</span><br>Projects</h1>
-        Here's the list of things that I did recently.
+    <Hero>
+      <div class="container mx-auto">
+        <div class="flex flex-col space-y-4 text-center text-xl py-20">
+          <div class="text-5xl normal-emoji-weight">
+            🛠
+          </div>
+          <h1 class="py-4 text-7xl font-extrabold">
+            Projects
+          </h1>
+          <p>Every problems has their own stories behind it ✨. As a software engineer I always try to solve these problems using what I'm good at, technology. Here you can find the stories of how I try to solve the problems that I've encountered.</p>
+        </div>
       </div>
+    </Hero>
+    <div class="container mx-auto mt-24">
       <div class="things">
         <ProjectIcon
           v-for="project in projects"
@@ -59,10 +68,6 @@ export default {
 <style scoped>
   .introduction {
     @apply text-lg max-w-2xl;
-  }
-
-  .hero {
-    @apply pt-20 space-y-8 container mx-auto ;
   }
 
   .things {
