@@ -9,7 +9,7 @@
 
     <bottom-sheet />
 
-    <footer>
+    <footer class="mt-16">
       <the-footer />
     </footer>
   </div>

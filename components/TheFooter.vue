@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex flex-col h-64">
+  <footer class="flex flex-col py-8">
     <div class="footer">
       <div class="container mx-auto">
         <div class="flex flex-col space-y-2 w-full lg:w-1/3 text-center lg:text-left">
@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .footer {
-  @apply bg-white text-sm h-full;
+  @apply text-sm h-full;
 }
 
 .container {
