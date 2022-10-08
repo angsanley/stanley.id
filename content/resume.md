@@ -18,7 +18,7 @@ date: 2022-03-07T13:26:58.368Z
 
 ### Summary
 
-A final year Computer Science student, with specialization in Mobile Application and Technology. Very passionate about full-stack development with 3 years of experience in modern web and mobile development. Highly experienced in Vue.js, React, React Native, and serverless architecture. Looking for a job opportunity in software engineering to apply my technical skills, knowledge, and experience.
+A freshly graduated Computer Science student, with specialization in Mobile Application and Technology. Very passionate about full-stack development with 3 years of experience in modern web and mobile development. Highly experienced in Vue.js, React, React Native, and serverless architecture. Looking for a job opportunity in software engineering to apply my technical skills, knowledge, and experience.
 
 ### Work Experience
 
@@ -26,7 +26,7 @@ A final year Computer Science student, with specialization in Mobile Application
 
 Apr 2022 - Present | Hong Kong SAR (Remote)
 <br><br>
-Working on a team of 5 people to build and maintain the Provider application for numerous hospitals and clinics, increased the efficiency of the application by improving the user experience and performance. Built a Tailwind design system that's used by the team to build the application.
+Working in a team of 5 people to build and maintain the Provider application for numerous hospitals and clinics, increased the efficiency of the application by improving the user experience and performance. Built a Tailwind design system that's used by the team to build the application.
 
 #### Software Engineer Intern, PT Bank Central Asia Tbk
 
@@ -64,13 +64,12 @@ Ex-lead developer of ADAB, a mobile and web application designed to help speech 
 
 ### Education
 
-#### Bachelor of Computer Science, BINUS University
+#### Bachelor of Science, BINUS University
 
-2018 - Present
+2018 - 2022
 
-* Specialization in Mobile Application and Technology
-* GPA: 3.68 out of 4.00
-* Expected time of graduation: July 2022
+* Studied Computer Science in the Mobile Application and Technology program
+* GPA: 3.67 out of 4.00
 * Android Programming tutor at Mobile Tech Community
 
 ### Technical Skills
