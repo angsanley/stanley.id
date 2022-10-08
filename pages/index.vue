@@ -3,7 +3,7 @@
     <Hero>
       <div class="container mx-auto">
         <div class="flex flex-col space-y-4 text-center text-xl py-20">
-          <div class="text-5xl">
+          <div class="text-5xl normal-emoji-weight">
             👋
           </div>
           <div class="text-3xl">
