@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto pt-28">
     <article>
       <nuxt-content :document="article" />
     </article>
@@ -32,6 +32,9 @@ export default {
       }
       return getSiteMeta(metaData)
     }
+  },
+  mounted () {
+    this.$store.commit('navbarConfig/setNoHero', true)
   }
 }
 </script>

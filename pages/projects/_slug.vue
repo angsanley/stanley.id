@@ -1,18 +1,20 @@
 <template>
   <div>
-    <div class="hero">
+    <Hero>
       <div class="introduction">
         <section class="title-section">
           <img :src="article.icon" :alt="article.title" class="icon">
-          <h1>{{ article.title }}</h1>
+          <h1 class="py-4 text-7xl font-extrabold">
+            {{ article.title }}
+          </h1>
           <span class="description">{{ article.subtitle }}</span>
         </section>
 
         <span class="published">Published {{ article.date | formatDate }} · {{ readingTime(article.text) }} min read</span>
       </div>
-    </div>
+    </Hero>
 
-    <article>
+    <article class="mt-16">
       <nuxt-content :document="article" />
     </article>
   </div>
@@ -21,6 +23,7 @@
 <script>
 import moment from 'moment'
 import getSiteMeta from '~/utils/getSiteMeta'
+import Hero from '~/components/Hero.vue'
 
 export default {
   name: 'Slug',
@@ -29,13 +32,14 @@ export default {
       return moment(date).calendar().replace(/\b[A-Z]/, match => match.toLowerCase())
     }
   },
+  components: { Hero },
   async asyncData ({ $content, params }) {
     const article = await $content('projects', params.slug, { text: true }).fetch()
     return { article }
   },
   head () {
     return {
-      title: this.article.title + ' - Stanley Ang', // I don't know why ${this.article.title} doesn't work.
+      title: this.article.title + ' - Stanley Ang',
       meta: [
         ...this.meta
       ]
@@ -67,7 +71,7 @@ export default {
 
 <style scoped>
   .introduction {
-    @apply text-xl flex flex-col items-center px-2 py-8 space-y-4;
+    @apply flex flex-col items-center justify-center w-full px-2 py-8 space-y-4;
   }
 
   .title-section {
@@ -75,7 +79,7 @@ export default {
   }
 
   .description {
-    @apply opacity-75 text-lg text-center;
+    @apply text-xl text-center;
   }
 
   .published {

@@ -12,6 +12,6 @@ export default {
 
 <style scoped>
   .emphasize {
-    @apply text-green;
+    @apply text-orange-lighter;
   }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="on-screen">
-      <the-navbar class="navbar" />
+      <the-navbar class="navbar" :no-hero="noHero" />
       <transition name="fade-in-up">
         <Nuxt class="content" />
       </transition>
@@ -9,7 +9,7 @@
 
     <bottom-sheet />
 
-    <footer>
+    <footer class="mt-16">
       <the-footer />
     </footer>
   </div>
@@ -19,7 +19,10 @@
 import TheNavbar from '~/components/TheNavbar'
 import TheFooter from '~/components/TheFooter'
 export default {
-  components: { TheFooter, TheNavbar }
+  components: { TheFooter, TheNavbar },
+  computed: {
+    noHero () { return this.$store.state.navbarConfig.noHero }
+  }
 }
 </script>
 
@@ -42,11 +45,10 @@ html {
 
 <style scoped>
   .navbar {
-    @apply fixed z-30 w-screen top-5 transform;
+    @apply fixed z-30 w-screen top-0 transform;
   }
 
   .content {
-    @apply mt-24;
   }
 
   .on-screen {
