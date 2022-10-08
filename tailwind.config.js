@@ -1,5 +1,6 @@
+const colors = require('tailwindcss/colors')
 module.exports = {
-  purge: [
+  content: [
     './components/**/*.{vue,js}',
     './layouts/**/*.vue',
     './pages/**/*.vue',
@@ -24,6 +25,7 @@ module.exports = {
       article: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif']
     },
     colors: {
+      ...colors,
       green: {
         lightest: '#E4FDE1',
         light: '#A8F99F',
