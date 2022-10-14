@@ -1,8 +1,8 @@
 const type = 'website'
 // const url = 'https://stanley.id'
 const title = 'Stanley Ang'
-const description = 'I’m a software developer from Indonesia graduating from BINUS University studying Mobile Application and Technology. I enjoy developing modern mobile and web apps.'
-const mainImage = 'https://ik.imagekit.io/7zppawpo3dl/stanley_RwK_OJxm5.png'
+const description = 'I’m a software developer from Indonesia graduating from BINUS University studying Mobile Application and Technology. I enjoy developing modern mobile and web apps. Let’s build stuff together! 🚀'
+const mainImage = 'https://stanley.id/icon.png'
 
 export default (meta) => {
   return [
