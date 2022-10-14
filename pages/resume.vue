@@ -32,9 +32,6 @@ export default {
       }
       return getSiteMeta(metaData)
     }
-  },
-  mounted () {
-    this.$store.commit('navbarConfig/setNoHero', true)
   }
 }
 </script>

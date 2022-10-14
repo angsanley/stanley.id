@@ -13,6 +13,9 @@ export default {
       type: Boolean,
       default: true
     }
+  },
+  mounted () {
+    this.$store.commit('navbarConfig/setNoHero', false)
   }
 }
 </script>
