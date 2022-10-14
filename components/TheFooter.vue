@@ -34,11 +34,11 @@ export default {
 }
 
 .container {
-  @apply flex flex-col lg:flex-row h-full justify-evenly lg:justify-between items-center;
+  @apply flex flex-col lg:flex-row h-full justify-evenly lg:justify-between items-center space-y-6 lg:space-y-0;
 }
 
 .social-media {
-  @apply flex space-x-2 fill-current justify-end;
+  @apply flex space-x-2 fill-current justify-center lg:justify-end;
 }
 
 .social-media > a {
