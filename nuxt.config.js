@@ -39,7 +39,6 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/tailwind.css',
     '@/assets/css/main.css',
     '@/assets/css/transitions/fade-in-up.css',
     '@/assets/css/emoji.min.css'
