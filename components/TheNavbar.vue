@@ -66,7 +66,7 @@ export default {
   }
 
   .content-bg {
-    @apply bg-white bg-opacity-90 backdrop-blur-xl h-20 text-gray-dark;
+    @apply bg-[#52A370] h-20 text-white;
   }
 
   .branding {
@@ -82,10 +82,10 @@ export default {
   }
 
   .nav-button {
-    @apply w-8 h-8 flex justify-center items-center fill-current text-gray-dark lg:hidden;
+    @apply w-8 h-8 flex justify-center items-center fill-current lg:hidden;
   }
 
   .nav-items {
-    @apply flex font-medium text-gray-dark text-lg lg:w-full;
+    @apply flex font-medium text-lg lg:w-full;
   }
 </style>
