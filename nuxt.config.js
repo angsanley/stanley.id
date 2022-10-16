@@ -31,7 +31,7 @@ export default {
       ...meta,
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'theme-color', content: '#6CBC8A' },
+      { name: 'theme-color', content: '#52A370' },
       { name: 'msapplication-TileColor', content: '#8acb88' }
     ],
     link: [
