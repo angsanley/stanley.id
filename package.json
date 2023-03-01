@@ -17,7 +17,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "core-js": "^3.26.0",
     "moment": "^2.29.4",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.2.3",
     "nuxt-material-design-icons": "^1.0.4",
     "vue-gtag": "^1.16.1",
     "vue-unicons": "^2.3.0"
