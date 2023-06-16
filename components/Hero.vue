@@ -1,5 +1,5 @@
 <template>
-  <div class="tile-bg min-h-[75vh] h-full relative items-center flex text-white">
+  <div class="tile-bg min-h-[46rem] h-full relative items-center flex text-white">
     <slot />
     <div class="wave-pattern h-20 absolute bottom-0 w-full" />
   </div>
