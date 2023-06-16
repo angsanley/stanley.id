@@ -80,7 +80,7 @@ Ex-lead developer of ADAB, a mobile and web application designed to help speech 
 ### Technical Skills
 
 * Languages: JavaScript, TypeScript, Java, Kotlin, PHP, Python, Dart, Swift, C, C++, SQL, VB.NET, HTML5, CSS3.
-* Frameworks and tools: Vue.js, React, React Native, Flutter, Nuxt.js, Next.js, NodeJS, Svelte, Tailwind CSS, Springboot, Kafka, Laravel, REST API, Docker, Android Studio, Xcode, MongoDB, Redis, Firebase, Amazon Web Services, Google Cloud Platform.
+* Frameworks and tools: Vue.js, React, React Native, Flutter, Nuxt.js, Next.js, NodeJS, Svelte, Tailwind CSS, GraphQL, Springboot, Kafka, Laravel, REST API, Docker, Android Studio, Xcode, MongoDB, Redis, Firebase, Amazon Web Services, Google Cloud Platform.
 
 ### Awards and Achievements
 
