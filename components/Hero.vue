@@ -25,6 +25,9 @@ export default {
   background: url("/img/wave-tile-footer.png") repeat-x;
   background-position: center bottom;
   background-size: 64rem;
+
+  /* Workaround for Windows scaling where sometimes there's 1px gap */
+  margin-bottom: -1px;
 }
 
 .tile-bg {
