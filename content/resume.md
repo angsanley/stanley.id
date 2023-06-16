@@ -18,13 +18,18 @@ date: 2022-03-07T13:26:58.368Z
 
 ### Summary
 
-A freshly graduated Computer Science student, with specialization in Mobile Application and Technology. Very passionate about full-stack development with 3 years of experience in modern web and mobile development. Highly experienced in Vue.js, React, React Native, and serverless architecture. Looking for a job opportunity in software engineering to apply my technical skills, knowledge, and experience.
+A frontend engineer graduated from School of Computer Science, with specialization in Mobile Application and Technology. Very passionate about full-stack development with 3 years of experience in modern web and mobile development. Highly experienced in Vue.js, React, React Native, and serverless architecture. Looking for a job opportunity in software engineering to apply my technical skills, knowledge, and experience.
 
 ### Work Experience
 
+#### Team Lead, [Mazecare](https://www.mazecare.com)
+Nov 2022 - Present | Hong Kong SAR (Remote)
+<br><br>
+Leading a team of 7 people to build and maintain the Provider application for numerous hospitals and clinics, increased the efficiency of the application by improving the user experience and performance. Built a Tailwind design system that's used by the team to build the application.
+
 #### Software Engineer (Frontend), [Mazecare](https://www.mazecare.com)
 
-Apr 2022 - Present | Hong Kong SAR (Remote)
+Apr 2022 - Nov 2022 | Hong Kong SAR (Remote)
 <br><br>
 Working in a team of 5 people to build and maintain the Provider application for numerous hospitals and clinics, increased the efficiency of the application by improving the user experience and performance. Built a Tailwind design system that's used by the team to build the application.
 
