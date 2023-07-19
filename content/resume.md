@@ -1,7 +1,7 @@
 ---
 title: Resume
 subtitle: Stanley Ang's Resume
-description: As a graduate of BINUS University School of Computer Science, I have specialized in Mobile Application and Technology. With over 3 years of experience in modern web and mobile development, I am very passionate about full-stack development. My expertise includes Vue.js,     React, React Native, and serverless architecture. Currently, I am seeking a software engineering position where I can apply my technical skills, knowledge, and experience.
+description: I am a BINUS University School of Computer Science graduate specializing in Mobile Application and Technology. I have 3+ years of experience in modern web and mobile development, with a passion for full-stack development using Vue.js, React, React Native, and serverless architecture. I am seeking a software engineering position to apply my technical skills and experience.
 slug: resume
 date: 2022-03-07T13:26:58.368Z
 ---
@@ -13,7 +13,7 @@ date: 2022-03-07T13:26:58.368Z
 
 ### Summary
 
-As a graduate of BINUS University School of Computer Science, I have specialized in Mobile Application and Technology. With over 3 years of experience in modern web and mobile development, I am very passionate about full-stack development. My expertise includes Vue.js, React, React Native, and serverless architecture. Currently, I am seeking a software engineering position where I can apply my technical skills, knowledge, and experience.
+I am a BINUS University School of Computer Science graduate specializing in Mobile Application and Technology. I have 3+ years of experience in modern web and mobile development, with a passion for full-stack development using Vue.js, React, React Native, and serverless architecture. I am seeking a software engineering position to apply my technical skills and experience.
 
 ### Work Experience
 
