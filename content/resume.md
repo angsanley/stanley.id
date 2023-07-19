@@ -1,12 +1,7 @@
 ---
 title: Resume
 subtitle: Stanley Ang's Resume
-description: A final year Computer Science student, with specialization in
-  Mobile Application and Technology. Very passionate about full-stack
-  development with 3 years of experience in modern web and mobile development.
-  Highly experienced in Vue.js, React, React Native, and serverless
-  architecture. Looking for a job opportunity in software engineering to apply
-  my technical skills, knowledge, and experience.
+description: As a graduate of BINUS University School of Computer Science, I have specialized in Mobile Application and Technology. With over 3 years of experience in modern web and mobile development, I am very passionate about full-stack development. My expertise includes Vue.js,     React, React Native, and serverless architecture. Currently, I am seeking a software engineering position where I can apply my technical skills, knowledge, and experience.
 slug: resume
 date: 2022-03-07T13:26:58.368Z
 ---
@@ -18,54 +13,54 @@ date: 2022-03-07T13:26:58.368Z
 
 ### Summary
 
-A frontend engineer graduated from School of Computer Science, with specialization in Mobile Application and Technology. Very passionate about full-stack development with 3 years of experience in modern web and mobile development. Highly experienced in Vue.js, React, React Native, and serverless architecture. Looking for a job opportunity in software engineering to apply my technical skills, knowledge, and experience.
+As a graduate of BINUS University School of Computer Science, I have specialized in Mobile Application and Technology. With over 3 years of experience in modern web and mobile development, I am very passionate about full-stack development. My expertise includes Vue.js, React, React Native, and serverless architecture. Currently, I am seeking a software engineering position where I can apply my technical skills, knowledge, and experience.
 
 ### Work Experience
 
-#### Team Lead, [Mazecare](https://www.mazecare.com)
+#### Lead Software Engineer, [Mazecare](https://www.mazecare.com)
 Nov 2022 - Present | Hong Kong SAR (Remote)
 <br><br>
-Leading a team of 7 people to build and maintain the Provider application for numerous hospitals and clinics, increased the efficiency of the application by improving the user experience and performance. Built a Tailwind design system that's used by the team to build the application.
+As a team leader for a group of seven individuals, I oversaw the development and maintenance of the Provider application for hospitals and clinics. I collaborated closely with clients and stakeholders to ensure that the development team delivered the right solutions for each client's unique needs.
 
 #### Software Engineer (Frontend), [Mazecare](https://www.mazecare.com)
 
 Apr 2022 - Nov 2022 | Hong Kong SAR (Remote)
 <br><br>
-Working in a team of 5 people to build and maintain the Provider application for numerous hospitals and clinics, increased the efficiency of the application by improving the user experience and performance. Built a Tailwind design system that's used by the team to build the application.
+Worked in a team of five people, I built and maintained the Provider application for numerous hospitals and clinics. Our team improved the efficiency of the application by enhancing the user experience and performance. Additionally, I built a Tailwind design system that the team now uses to develop the application.
 
 #### Software Engineer Intern, PT Bank Central Asia Tbk
 
 Feb 2021 - Feb 2022 | Jakarta, Indonesia
 <br><br>
-Maintained Bank BCA's WhatsApp Business API (On-Premises) Docker deployment, handled the integration between the Springboot backend and other channels such as marketing and customer service using Confluent Kafka and REST API, built an internal documentation website using Docusaurus. Also involved in an experimental project integrating React Native into one of Bank BCA's existing native Android app.
+I maintained Bank BCA's WhatsApp Business API (On-Premises) Docker deployment. Additionally, I handled integration between the Springboot backend and other channels, such as marketing and customer service, using Confluent Kafka and REST API. To improve internal documentation, I built a website using Docusaurus. I was also involved in an experimental project that integrated React Native into one of Bank BCA's existing native Android apps.
 
 #### Front End Developer, Abersoft Technologies
 
 Mar 2020 - Mar 2021 | Stockholm, Sweden
 <br><br>
-Designed and developed a bunch of web apps using Vue.js and Nuxt.js, including Abersoft's company profile website. Developed an internal tool to help Abersoft share confidential files with their clients using Vue.js and Firebase.
+I designed and developed several web applications using Vue.js and Nuxt.js, including Abersoft's company profile website. Additionally, I developed an internal tool that utilized Vue.js and Firebase to help Abersoft share confidential files with their clients.
 
 #### Full Stack Engineer, BINUS University
 
 Sep 2019 - Jan 2021 | Jakarta, Indonesia
 <br><br>
-Worked in a team of 5 as Bearcats Developer Team to develop ADAB, a mobile and web application designed to help speech and hearing impaired students at BINUS University. Developed the backend using NodeJS, the real-time speech-to-text functionality using Socket.io, and the web application using Vue.js.
+As part of the Bearcats Developer Team, I worked with four other team members to create ADAB, a mobile and web application that assists speech and hearing-impaired students at BINUS University. My responsibilities included developing the backend using NodeJS, implementing real-time speech-to-text functionality using Socket.io, and building the web application using Vue.js.
 
 #### Full Stack Engineer, BINUS Mobile Tech Community
 
 Aug 2019 - Oct 2019 | Jakarta, Indonesia
 <br><br>
-Developed an entire e-ticketing and reservation system using NodeJS for MAT I/O 2019, a gathering event for generation-23 MAT students, developed a web app for MAT Ideathon 2019 event using Bootstrap.
+I developed an e-ticketing and reservation system for MAT I/O 2019, a gathering event for generation-23 MAT students, using NodeJS. Additionally, I created a web app for the MAT Ideathon 2019 event using Bootstrap.
 
 ### Projects
 
 #### Rokaru
 
-Ex-product designer and developer of Rokaru, a mobile app to help small and medium-sized enterprises (SMEs) market their products and services. Developed using Flutter and Tensorflow. Rokaru was submitted for BINUS SoCS Hackathon and won the first place.
+I am an ex-product designer and developer of Rokaru, a mobile app designed to help small and medium-sized enterprises (SMEs) market their products and services. The app was developed using Flutter and Tensorflow. Rokaru was submitted for the BINUS SoCS Hackathon and won first place.
 
 #### ADAB
 
-Ex-lead developer of ADAB, a mobile and web application designed to help speech and hearing impaired students at BINUS University. Developed using Android Studio, NodeJS, Vue.js, and Socket.io. ADAB was featured in an article by BINUS University Student Advisory and Support Center, and supported by Indonesian Ministry of Research and Technology (Kemenristekdikti).
+As the lead developer of ADAB, a mobile and web application aimed at aiding speech and hearing-impaired students at BINUS University, I utilized Android Studio, NodeJS, Vue.js, and Socket.io in its development. ADAB was featured in an article by the BINUS University Student Advisory and Support Center, and received support from the Indonesian Ministry of Research and Technology (Kemenristekdikti).
 
 ### Education
 
