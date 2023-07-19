@@ -28,7 +28,7 @@ Apr 2022 - Nov 2022 | Hong Kong SAR (Remote)
 <br><br>
 Worked in a team of five people, I built and maintained the Provider application for numerous hospitals and clinics. Our team improved the efficiency of the application by enhancing the user experience and performance. Additionally, I built a Tailwind design system that the team now uses to develop the application.
 
-#### Software Engineer Intern, PT Bank Central Asia Tbk
+#### Software Engineering Intern, PT Bank Central Asia Tbk
 
 Feb 2021 - Feb 2022 | Jakarta, Indonesia
 <br><br>
