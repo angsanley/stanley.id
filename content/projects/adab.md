@@ -1,47 +1,40 @@
 ---
-title: ADAB
+title: ADAB - Empowering Inclusive Education through Innovation
 subtitle: Ayo Dengar Ayo Bicara
-description: Every human being wishes to be born perfect, yet some are not as lucky as others. In BINUS University alone, dozens of students with hearing and speech impairment are admitted every year.
+description: Join us in exploring ADAB, a transformative project that enhances the learning experience for students with hearing and speech impairment at BINUS University.
 icon: https://ik.imagekit.io/7zppawpo3dl/adab_GQ7zVtWxX.png?updatedAt=1627146896081
 slug: adab
 date: 2021-07-24T16:52:44.649Z
 ---
-Every human being wishes to be born perfect, yet some are not as lucky as others. In BINUS University alone, dozens of students with hearing and speech impairment are admitted every year. Their circumstances pose challenges in understanding lecture delivery, thus crippling comprehension, deteriorating performance, hence increasing tuition fees due to longer learning period.
-<br>
-<br>
-Together as <hyperlink to="https://github.com/bearcatsdev" external>Bearcats Developer Team</hyperlink> with guidance from Mrs. Sonya R. Manalu, we created ADAB. A project aiming to help these students by enhancing their learning experience with an e-learning platform powered by speech-to-text.
-<br>
-<br>
+
+In a world where everyone aspires to be born perfect, the reality is not always so. Within BINUS University, a significant number of students with hearing and speech impairment are admitted annually. This unique situation presents challenges in comprehending lectures, adversely affecting performance and extending learning periods, ultimately leading to increased tuition fees.
+
+As the <hyperlink to="https://github.com/bearcatsdev" external>Bearcats Developer Team</hyperlink>, guided by the visionary Mrs. Sonya R. Manalu, we embarked on a remarkable journey to develop ADAB. This innovative project is aimed at enriching the learning experience for these students by introducing an e-learning platform powered by state-of-the-art speech-to-text technology.
+
 ![ADAB mockup](https://i.postimg.cc/FRwnwqrk/adab-mockup.png)
-<br>
-<br>
-## History
-We initially developed the prototype in a hackathon competition called BIOS in Multimedia Nusantara University, Tangerang. Development advances within 24 hours and we managed to achieve as one of the top eight finalists. We were then offered a year-long mentorship program to further develop ADAB, but it was canceled halfway.
-<br>
-<br>
+
+## A Journey Through Time
+
+ADAB's origin story can be traced back to the BIOS hackathon held at Multimedia Nusantara University, Tangerang. Within just 24 hours, our progress propelled us to become one of the top eight finalists. This achievement earned us a coveted year-long mentorship program, which unfortunately was terminated halfway through its duration.
+
 ![We standing in BIOS photobooth](https://ik.imagekit.io/7zppawpo3dl/IMG_4136_gqYDQ-1IU.jpg?updatedAt=1627232961342&tr=fo-auto)
-<br>
-<br>
-With the support from the Indonesian Ministry of Research and Technology (Kemenristekdikti), we further develop ADAB from a prototype to a functional product. We worked together closely with Student Advisory & Support Center from BINUS University to make sure our app suits the needs of its users.
-<br>
-<br>
+
+## A Government-Backed Evolution
+
+With the invaluable support of the Indonesian Ministry of Research and Technology (Kemenristekdikti), we expanded ADAB from its prototype stage into a fully functional product. In close collaboration with the Student Advisory & Support Center at BINUS University, we fine-tuned the app to cater seamlessly to the unique needs of its users.
+
 ![ADAB app being tested](https://student.binus.ac.id/wp-content/uploads/2020/09/ADAB-2-640x475.jpg)
-<br>
-<br>
-## Technical Stuff <span class="normal-emoji-weight">🧑‍💻</span>
-ADAB can be accessed on both web and mobile platforms. The web app was developed using Vue.js, and the mobile app was developed natively for Android, with iOS support coming soon. Both apps run on an Express backend, with a MySQL database.
-<br>
-<br>
-In the meantime, we used Chrome and Android's native speech to text API to transcribe the lecturer's words into text in real-time and then broadcasted it to all students using Socket.io. We're planning to move to Google Cloud Speech to Text API later.
-<br>
-<br>
-–
-<br>
-<br>
-We were happy ADAB received a lot of positive reactions from its users. We were glad that we could make an impact on the world to become a better place.
-<br>
-<br>
-I wanted to say thank you to everyone who contributes, and also to the team who will continue to maintain this project after we graduate from university.
-<br>
-<br>
-You can further read the story about ADAB in BINUS University's <hyperlink to="https://student.binus.ac.id/2020/09/aplikasi-adab-to-connect-dari-binusian-untuk-binusian/" external>post</hyperlink> (in Bahasa Indonesia), or read the <hyperlink to="https://bearcatsdev.github.io/docs/adab/" external>tech docs</hyperlink>, or view the source code on <hyperlink to="https://github.com/bearcatsdev/adab" external>GitHub</hyperlink>.
+
+## Navigating the Technical Realm
+
+ADAB offers accessibility through both web and mobile platforms. The web app was constructed using Vue.js, while the Android app, natively developed, boasts iOS support on the horizon. Both iterations are powered by an Express backend, supported by a MySQL database.
+
+During its developmental phase, Chrome and Android's native speech-to-text API facilitated real-time transcription of lecturers' words into text, relayed to students via Socket.io. Our roadmap includes transitioning to Google Cloud Speech to Text API in the near future.
+
+## Celebrating Impact and Expressing Gratitude
+
+Witnessing the positive response from ADAB's users has been a source of immense satisfaction. It's heartwarming to know that our project is contributing to creating a better world.
+
+We extend our heartfelt gratitude to all contributors and to the dedicated team that will carry forward this endeavor beyond our university journey.
+
+For an in-depth narrative of ADAB's evolution, read the complete story on BINUS University's <hyperlink to="https://student.binus.ac.id/2020/09/aplikasi-adab-to-connect-dari-binusian-untuk-binusian/" external>post</hyperlink> (in Bahasa Indonesia), delve into the <hyperlink to="https://bearcatsdev.github.io/docs/adab/" external>tech documentation</hyperlink>, or explore the source code on <hyperlink to="https://github.com/bearcatsdev/adab" external>GitHub</hyperlink>.
