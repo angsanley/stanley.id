@@ -27,7 +27,7 @@ With the invaluable support of the Indonesian Ministry of Research and Technolog
 
 ## Navigating the Technical Realm
 
-ADAB offers accessibility through both web and mobile platforms. The web app was constructed using Vue.js, while the Android app, natively developed, boasts iOS support on the horizon. Both iterations are powered by an Express backend, supported by a MySQL database.
+ADAB provides accessibility across both web and mobile platforms. The web app was built using Vue.js, while the mobile app was developed natively for Android. We are actively working to expand its compatibility to iOS in the near future. Both variations are supported by an Express backend and backed by a MySQL database.
 
 During its developmental phase, Chrome and Android's native speech-to-text API facilitated real-time transcription of lecturers' words into text, relayed to students via Socket.io. Our roadmap includes transitioning to Google Cloud Speech to Text API in the near future.
 
