@@ -1,6 +1,6 @@
 ---
-title: ADAB - Empowering Inclusive Education through Innovation
-subtitle: Ayo Dengar Ayo Bicara
+title: ADAB
+subtitle: Empowering Inclusive Education through Innovation
 description: Join us in exploring ADAB, a transformative project that enhances the learning experience for students with hearing and speech impairment at BINUS University.
 icon: https://ik.imagekit.io/7zppawpo3dl/adab_GQ7zVtWxX.png?updatedAt=1627146896081
 slug: adab
