@@ -1,5 +1,5 @@
 ---
-title: Tamago - Digital Piggy Bank App
+title: Tamago
 subtitle: Teaching Kids to Save with Fun and Interaction
 description: Explore Tamago, a digital piggy bank app created for young parents to teach their children how to save money in an engaging and interactive way.
 icon: https://ik.imagekit.io/7zppawpo3dl/tamago2_u0z97L2x4.png?updatedAt=1627146899617
