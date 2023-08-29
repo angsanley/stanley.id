@@ -1,6 +1,6 @@
 ---
-title: Rokaru - Revolutionizing SMEs in Indonesia
-subtitle: Empowering Small and Medium-Sized Enterprises
+title: Rokaru
+subtitle: Revolutionizing SMEs in Indonesia
 description: Discover how Rokaru is reshaping Indonesia's business landscape, empowering SMEs in the digital era.
 icon: https://ik.imagekit.io/7zppawpo3dl/rokaru_zhJ_-pbKg.png?updatedAt=1627146897868
 slug: rokaru
