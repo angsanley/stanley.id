@@ -4,7 +4,7 @@ import { Icon } from 'astro-icon/components'
 const { class: className, ...rest } = Astro.props
 ---
 
-<ul class:list={['flex gap-3 flex-wrap justify-center', className]}>
+<ul class:list={['flex gap-3 flex-wrap justify-center', className]} {...rest}>
   <li>
     <a class="link" href="https://github.com/angsanley" target="_blank">
       <Icon name="ph:github-logo" />
@@ -37,7 +37,7 @@ const { class: className, ...rest } = Astro.props
 
 <style>
   .link {
-    @apply bg-slate-100 rounded-lg border px-2 py-1 flex gap-2 items-center transition;
+    @apply bg-slate-100 rounded-lg border px-2 py-1 flex gap-1 items-center transition;
   }
 
   .link:hover {

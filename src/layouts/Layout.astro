@@ -37,7 +37,10 @@ const seo = {
         description: seo.description,
       }}
       extend={{
-        link: [{ rel: 'icon', href: '/favicon.ico' }],
+        link: [
+          { rel: 'icon', href: '/favicon.ico' },
+          { rel: 'sitemap', href: '/sitemap-index.xml' },
+        ],
       }}
     />
     <meta charset="UTF-8" />
@@ -62,7 +65,7 @@ const seo = {
       }
 
       body {
-        @apply max-w-xl mx-auto;
+        @apply max-w-2xl mx-auto;
       }
     </style>
   </body>
