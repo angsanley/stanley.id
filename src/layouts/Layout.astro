@@ -1,43 +1,78 @@
 ---
 import '@fontsource-variable/sora'
 import '@fontsource-variable/inter-tight'
+import { SEO } from 'astro-seo'
 
 interface Props {
   title: string
 }
 
 const { title } = Astro.props
+
+const seo = {
+  title: 'Stanley Ang',
+  description:
+    'Experienced Software Engineer and Product Designer with 4+ years of building impactful apps using TypeScript and Node.js. Passionate about tech since age 8.',
+}
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
+    <SEO
+      title={seo.title}
+      description={seo.description}
+      openGraph={{
+        basic: {
+          title: seo.title,
+          type: 'profile',
+          image: '/seo.jpg',
+        },
+      }}
+      twitter={{
+        creator: '@angsanley',
+      }}
+      extend={{
+        // extending the default link tags
+        link: [{ rel: 'icon', href: '/favicon.ico' }],
+        // extending the default meta tags
+        meta: [
+          {
+            name: 'twitter:image',
+            content: '/seo.jpg',
+          },
+          { name: 'twitter:title', content: seo.title },
+          {
+            name: 'twitter:description',
+            content: seo.description,
+          },
+        ],
+      }}
+    />
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
   <body>
     <slot />
+    <style is:global>
+      :root {
+        @apply bg-slate-50;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        @apply font-display;
+      }
+
+      body {
+        @apply max-w-xl mx-auto;
+      }
+    </style>
   </body>
 </html>
-<style is:global>
-  :root {
-    @apply bg-slate-50;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-display;
-  }
-
-  body {
-    @apply max-w-xl mx-auto;
-  }
-</style>
