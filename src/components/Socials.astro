@@ -4,7 +4,7 @@ import { Icon } from 'astro-icon/components'
 const { class: className, ...rest } = Astro.props
 ---
 
-<ul class:list={['flex gap-3', className]}>
+<ul class:list={['flex gap-3 flex-wrap justify-center', className]}>
   <li>
     <a class="link" href="https://github.com/angsanley" target="_blank">
       <Icon name="ph:github-logo" />
