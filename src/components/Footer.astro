@@ -1,0 +1,32 @@
+---
+import { getImage } from 'astro:assets'
+import waveLine from '../assets/wave_line.svg'
+
+const optimizedBackground = await getImage({
+  src: waveLine,
+  quality: 'max',
+})
+---
+
+<div class="my-8 text-sm">
+  <div
+    class="w-full h-2 bg-repeat-x opacity-50"
+    style={`background-image: url(${optimizedBackground.src});`}
+  >
+  </div>
+
+  <div class="mt-8 opacity-60 flex justify-between">
+    <p>© 2024 Stanley Ang</p>
+    <p>Made with <a href="https://astro.build">Astro</a></p>
+  </div>
+</div>
+
+<style>
+  a {
+    @apply underline transition-colors;
+  }
+
+  a:hover {
+    @apply text-green-700;
+  }
+</style>

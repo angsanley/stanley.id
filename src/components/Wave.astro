@@ -1,0 +1,24 @@
+---
+import { getImage } from 'astro:assets'
+import wave from '../assets/wave.svg'
+
+const { class: className, ...rest } = Astro.props
+
+const optimizedBackground = await getImage({
+  src: wave,
+})
+---
+
+<div
+  class:list={['w-full h-10 wave', className]}
+  {...rest}
+  style={`background-image: url(${optimizedBackground.src});`}
+>
+</div>
+
+<style>
+  .wave {
+    background-repeat: repeat-x;
+    background-position: bottom;
+  }
+</style>

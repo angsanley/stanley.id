@@ -1,0 +1,46 @@
+---
+import { Icon } from 'astro-icon/components'
+
+const { class: className, ...rest } = Astro.props
+---
+
+<ul class:list={['flex gap-3', className]}>
+  <li>
+    <a class="link" href="https://github.com/angsanley" target="_blank">
+      <Icon name="ph:github-logo" />
+      GitHub
+    </a>
+  </li>
+  <li>
+    <a
+      class="link"
+      href="https://www.linkedin.com/in/angsanley"
+      target="_blank"
+    >
+      <Icon name="ph:linkedin-logo" />
+      LinkedIn
+    </a>
+  </li>
+  <li>
+    <a class="link" href="https://twitter.com/angsanley" target="_blank">
+      <Icon name="ph:twitter-logo" />
+      Twitter
+    </a>
+  </li>
+  <li>
+    <a class="link" href="https://instagram.com/angsanley" target="_blank">
+      <Icon name="ph:instagram-logo" />
+      Instagram
+    </a>
+  </li>
+</ul>
+
+<style>
+  .link {
+    @apply bg-slate-100 rounded-lg border px-2 py-1 flex gap-2 items-center transition;
+  }
+
+  .link:hover {
+    @apply bg-green-100 border-green-500;
+  }
+</style>
