@@ -1,0 +1,24 @@
+---
+import { getImage } from 'astro:assets'
+import waveLine from '../assets/wave_line.svg'
+
+const optimizedBackground = await getImage({
+  src: waveLine,
+  quality: 'max',
+})
+
+interface Props {
+  title: string
+}
+
+const { title } = Astro.props
+---
+
+<div class="flex items-center gap-4 p-2 sm:p-0">
+  <h2 class="font-medium text-xl flex-shrink-0 title">{title}</h2>
+  <div
+    class="w-full h-2 bg-repeat-x opacity-50"
+    style={`background-image: url(${optimizedBackground.src});`}
+  >
+  </div>
+</div>

@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "stanley.id",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,8 +10,27 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.12.1",
     "@astrojs/check": "^0.8.2",
-    "typescript": "^5.5.3"
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vue": "^4.5.0",
+    "@fontsource-variable/inter-tight": "^5.0.21",
+    "@fontsource-variable/sora": "^5.0.18",
+    "astro": "^4.12.1",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.3",
+    "vue": "^3.4.32"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.23.0",
+    "@iconify-json/logos": "^1.1.43",
+    "@iconify-json/ph": "^1.1.13",
+    "@iconify-json/vscode-icons": "^1.1.36",
+    "@unocss/eslint-plugin": "^0.61.5",
+    "astro-eslint-parser": "^1.0.2",
+    "astro-icon": "^1.1.0",
+    "eslint": "9.5.0",
+    "eslint-plugin-astro": "^1.2.3",
+    "eslint-plugin-format": "^0.1.2",
+    "prettier-plugin-astro": "^0.13.0"
   }
 }

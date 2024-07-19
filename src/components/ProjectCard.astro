@@ -1,0 +1,50 @@
+---
+import { Image } from 'astro:assets'
+import { Icon } from 'astro-icon/components'
+
+interface Props {
+  title: string
+  body: string
+  href: string
+  image?: ImageMetadata
+  techStacks?: string[]
+}
+
+const { href, title, body, image, techStacks } = Astro.props
+---
+
+<li class="project-card">
+  <a href={href}>
+    {
+      image && (
+        <Image src={image} alt={title} class="h-48 object-cover rounded-t-lg" />
+      )
+    }
+
+    <div class="p-4">
+      <h3 class="font-medium">
+        {title}
+      </h3>
+      <p class="opacity-60">
+        {body}
+      </p>
+
+      <div class="flex gap-2 mt-4">
+        {
+          techStacks &&
+            techStacks.map((tech) => <Icon size={20} name={`logos:${tech}`} />)
+        }
+      </div>
+    </div>
+  </a>
+</li>
+
+<style>
+  .project-card {
+    @apply bg-slate-100 rounded-lg border transition;
+  }
+
+  .project-card:hover {
+    @apply border-green-500 bg-green-100;
+  }
+</style>
