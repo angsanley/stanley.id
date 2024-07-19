@@ -30,23 +30,14 @@ const seo = {
         },
       }}
       twitter={{
+        card: 'summary_large_image',
         creator: '@angsanley',
+        image: '/seo.jpg',
+        title: seo.title,
+        description: seo.description,
       }}
       extend={{
-        // extending the default link tags
         link: [{ rel: 'icon', href: '/favicon.ico' }],
-        // extending the default meta tags
-        meta: [
-          {
-            name: 'twitter:image',
-            content: '/seo.jpg',
-          },
-          { name: 'twitter:title', content: seo.title },
-          {
-            name: 'twitter:description',
-            content: seo.description,
-          },
-        ],
       }}
     />
     <meta charset="UTF-8" />
