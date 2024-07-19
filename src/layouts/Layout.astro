@@ -13,6 +13,8 @@ const seo = {
   title: 'Stanley Ang',
   description:
     'Experienced Software Engineer and Product Designer with 4+ years of building impactful apps using TypeScript and Node.js. Passionate about tech since age 8.',
+  image: `${import.meta.env.SITE}/seo.jpg`,
+  twitterCreator: '@angsanley',
 }
 ---
 
@@ -26,13 +28,13 @@ const seo = {
         basic: {
           title: seo.title,
           type: 'profile',
-          image: '/seo.jpg',
+          image: seo.image,
         },
       }}
       twitter={{
         card: 'summary_large_image',
-        creator: '@angsanley',
-        image: '/seo.jpg',
+        creator: seo.twitterCreator,
+        image: seo.image,
         title: seo.title,
         description: seo.description,
       }}
