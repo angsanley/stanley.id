@@ -16,7 +16,7 @@
     "@astrojs/vue": "^4.5.0",
     "@fontsource-variable/inter-tight": "^5.0.21",
     "@fontsource-variable/sora": "^5.0.18",
-    "astro": "^4.12.1",
+    "astro": "^4.12.2",
     "astro-seo": "^0.8.4",
     "tailwindcss": "^3.4.6",
     "typescript": "^5.5.3",
