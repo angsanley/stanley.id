@@ -27,7 +27,7 @@
     "@iconify-json/logos": "^1.1.43",
     "@iconify-json/ph": "^1.1.13",
     "@iconify-json/vscode-icons": "^1.1.36",
-    "@unocss/eslint-plugin": "^0.61.5",
+    "@unocss/eslint-plugin": "^0.61.6",
     "astro-eslint-parser": "^1.0.2",
     "astro-icon": "^1.1.0",
     "eslint": "9.7.0",
